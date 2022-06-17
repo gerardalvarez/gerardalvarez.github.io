@@ -7,7 +7,6 @@ export default function Profile() {
     <div className="profile-container">
       <div className="profile-parent">
         <div className="profile-info">
-          <div className="gery"></div>
           <div className="profile-name">
             <h1>
               <span className="texto"> Hello, my name is </span>

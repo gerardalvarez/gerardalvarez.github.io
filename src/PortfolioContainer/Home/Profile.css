@@ -1,6 +1,8 @@
 .profile-container{
-    
-    text-align: left;
+    justify-content: center;
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
     
 }
 .profile-name{
