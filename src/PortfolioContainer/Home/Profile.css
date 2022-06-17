@@ -1,0 +1,32 @@
+.profile-container{
+    
+    text-align: left;
+    
+}
+.profile-name{
+    margin-top: 10px;
+    color: var(--slate);
+    line-height: 0.9;
+}
+.minombre{
+    margin-top: -900px;
+    color: #7d2585;
+    line-height : 20px;
+    width: 100px;
+    height: 100px;
+}
+.profile-efecto{
+    padding: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.texto {
+    text-align: center;
+    margin: 0 0 30px 4px;
+    color: #ddc8e9;
+    font-size: 18px;
+}
+.p{
+    margin: 20px 0 0;
+    max-width: 540px
+}

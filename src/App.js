@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
+import './App.css';
 
-
-
+import Profile from "./PortfolioContainer/Home/Profile";
 
 const App = () => {
   return (
-    <div>
-        <h1>GPT-3</h1>
+    <div >
+      <Profile />
     </div>
-  )
-}
+  );
+};
 
 export default App;
