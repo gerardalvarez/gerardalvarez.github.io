@@ -1,10 +1,6 @@
-.navbar{
-    list-style: none;
-    text-align: right;
-    display: inline;
-    padding-left: 3px;
-    padding-right: 3px;
-}
-.navbar01 .navbar02 .navbar03 .navbar04 {
-    display: inline;
+.topbar{
+  width: 100%;
+  box-sizing: border-box;
+    height: 77px;
+    background-color: #7d2585;
 }

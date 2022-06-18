@@ -6,9 +6,9 @@ import Profile from "./PortfolioContainer/Home/Profile";
 
 const App = () => {
   return (
-    <div >
-      <Navbar />
-      <Profile />
+    <div className="app">
+      <Navbar/>
+      <Profile/>
     </div>
   );
 };

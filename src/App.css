@@ -1,4 +1,9 @@
-:root{
-    background-color: #ba8bf8;
-}
 
+:root{
+    background-color: aqua;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* important to avoid padding/margin collapse */
+  }
