@@ -7,7 +7,22 @@ import Profile from "./PortfolioContainer/Home/Profile";
 const App = () => {
   return (
     <div className="app">
-      <Navbar/>
+      <div><Navbar/></div>
+      <Profile/>
+      <Profile/>
+      <Profile/>
+      <Profile/>
+      <Profile/>
+      <Profile/>
+      <Profile/>
+      <Profile/>
+      <Profile/>
+      <Profile/>
+      <Profile/>
+      <Profile/>
+      <Profile/>
+      <Profile/>
+      <Profile/>
       <Profile/>
     </div>
   );
