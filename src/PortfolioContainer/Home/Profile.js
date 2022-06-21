@@ -4,7 +4,7 @@ import "./Profile.css";
 
 export default function Profile() {
   return (
-    <div className="profile-container">
+    <><div className="profile-container">
       <div className="profile-parent">
         <div className="profile-info">
           <div className="profile-name">
@@ -31,13 +31,12 @@ export default function Profile() {
                     1000,
                     "Maricona",
                     1000,
-                  ]}
-                />
+                  ]} />
               </h1>
             </span>
           </div>
           <div>
-            <p>
+            <p className="desc">
               I’m a software engineer specializing in building (and occasionally
               designing) exceptional digital experiences. Currently, I’m focused
               on building accessiblddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
@@ -47,6 +46,7 @@ export default function Profile() {
           </div>
         </div>
       </div>
-    </div>
+      <div class='light x1'></div><div class='light x2'></div><div class='light x3'></div><div class='light x4'></div><div class='light x5'></div><div class='light x6'></div><div class='light x7'></div><div class='light x8'></div><div class='light x9'></div>
+    </div></>
   );
 }

@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 
 export default function Navbar() {
   
-  const [show, setShow] = useState('active1');
+  const [show, setShow] = useState('active_and_top');
   const [lastScrollY, setLastScrollY] = useState(0);
 
 
@@ -20,7 +20,7 @@ export default function Navbar() {
       // remember current page location to use in the next move
       setLastScrollY(window.scrollY); 
       if(window.pageYOffset===0){
-        setShow('active1');
+        setShow('active_and_top');
       }
     }
   };

@@ -1,9 +1,16 @@
 
 :root{
-    background-color: #0f3266;
+    background-color:  #ffff;
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* important to avoid padding/margin collapse */
+  }
+
+  .sections{
+    width: 100%;
+    height: calc(100vh -70px);
+    position: relative;
+    
   }
