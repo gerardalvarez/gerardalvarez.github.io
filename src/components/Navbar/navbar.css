@@ -1,5 +1,12 @@
+
+
+.hola{
+ display: none;
+ 
+}
+
 .active {
-  height: 67px;
+  height: 70px;
   width: 100%;
   position: fixed;
   top: 0px;
@@ -10,7 +17,7 @@
   z-index: 40;
   box-shadow: 0px 4px 28px -1px rgba(0, 0, 0, 0.75);
   opacity: 0.9;
-  padding-right: 4cm;
+  
 
 }
 
@@ -23,7 +30,7 @@
   display: flex;
   background-color: transparent;
   z-index: 999;
-  padding-right: 4cm;
+  
   
 }
 
@@ -33,7 +40,7 @@
   z-index: 40;
   display: flex;
 
-  padding-right: 4cm;
+
   box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.08);
   position: fixed;
   top: -80px;
@@ -65,6 +72,7 @@ width: 100%;
 position: fixed;
 padding-right: 10vh;
 
+
 }
 
 .logo {
@@ -72,7 +80,6 @@ padding-right: 10vh;
   height: 57px;
   width: 60px;
   padding-left: 12vh;
-
 }
 
 
@@ -82,7 +89,26 @@ padding-right: 10vh;
   stroke-width: 2;
   stroke-linejoin: round;
   stroke-linecap: round;
+  padding-top: 22px;
 
-  padding-top: 16px;
+
+
   
+  
+}
+
+
+
+@media screen and (max-width: 768px) {
+  
+  .hola{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center ;
+    height: 57px;
+    width: 100%;
+  }
+  .navbuttons{
+    display:none;
+  }
 }
