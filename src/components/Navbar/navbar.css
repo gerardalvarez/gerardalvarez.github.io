@@ -1,32 +1,30 @@
 .active {
-  height: 57px;
+  height: 67px;
   width: 100%;
   position: fixed;
   top: 0px;
   transition: 0.3s;
   display: flex;
-  justify-content: right;
-  align-items: right;
   background-color: transparent;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   z-index: 40;
   box-shadow: 0px 4px 28px -1px rgba(0, 0, 0, 0.75);
   opacity: 0.9;
   padding-right: 4cm;
+
 }
 
 .active_and_top {
-  height: 57px;
+  height: 70px;
   width: 100%;
   position: fixed;
   transition: 0.1s linear;
   top: 0;
   display: flex;
-  justify-content: right;
-  align-items: right;
   background-color: transparent;
   z-index: 999;
   padding-right: 4cm;
+  
 }
 
 .hidden {
@@ -34,8 +32,7 @@
   width: 100%;
   z-index: 40;
   display: flex;
-  justify-content: right;
-  align-items: right;
+
   padding-right: 4cm;
   box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.08);
   position: fixed;
@@ -44,16 +41,48 @@
   background-color: transparent;
 }
 
-#navbar a {
+#a {
   float: right;
   display: block;
   color: white;
   text-align: right;
-  padding: 20px;
+  padding: 22px;
   text-decoration: none;
+  align-items: center;  
+  
 }
 
-#navbar a:hover {
+#a:hover {
   background-color: #ddd;
   color: black;
+}
+
+.navbuttons{
+display: flex;
+justify-content: right;
+height: 70px;
+width: 100%;
+position: fixed;
+padding-right: 10vh;
+
+}
+
+.logo {
+  display: flex;
+  height: 57px;
+  width: 60px;
+  padding-left: 12vh;
+
+}
+
+
+.item {
+  overflow: visible;
+  stroke: rgb(255, 255, 255);
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+
+  padding-top: 16px;
+  
 }

@@ -9,14 +9,14 @@
 body{
     font-family: 'Exo', sans-serif;
     margin: 0;
-    height: 20cm;
+    height: 100vh;
     font-weight: 100;
     -webkit-animation: fadeIn 1 1s ease-out;
     -moz-animation: fadeIn 1 1s ease-out;
     -o-animation: fadeIn 1 1s ease-out;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
-    animation: gradient 13s ease infinite;
+    animation: gradient 4s ease infinite;
 }
 
 @keyframes gradient {
@@ -55,7 +55,7 @@ body{
 .profile-container{
     justify-content: center;
     display: flex;
-    height: 20cm;
+    height: 100vh;
     flex-direction: column;
 }
 .profile-parent {
