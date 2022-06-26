@@ -9,6 +9,7 @@
       background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
       background-size: 400% 400%;
       animation: gradient 10s ease infinite;
+      
     }
     
     
@@ -53,20 +54,21 @@
     
     
     .profile-container{
+        
+        position: relative;
+        overflow: overlay;
+    }
+    .profile-info {
+        
+        position: absolute;
+        padding-left: 30%;
+        padding-right: 30%;
         justify-content: center;
         display: flex;
         height: 100vh;
         flex-direction: column;
-        width: 100%;
        
         
-    }
-    .profile-info {
-        justify-content: center;
-        height: 100vh;
-        flex-direction: column;
-        width: 100%;
-       
         
     }
     
@@ -74,23 +76,47 @@
         justify-content: center;
         flex-direction: column;
         width: 100%;
-      
+        
     }
     .minombre{
        
         color: #7d2585;
-        line-height : 20px;
+        line-height : 70px;
+        font-size: 7vh;
        
     }
     .profile-efecto{
-       
+        position: relative;
+        font-size: 2vh;
+        line-height : 20px;
+        top: -10px;
     }
     .texto {
         text-align: center;
        
         color: #ddc8e9;
-        font-size: 1vh;
+        font-size: 2vh;
     }
     .desc{
         font: 1vh;
+    }
+
+    .img2 {
+       
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        padding-top:200px;
+        opacity: 0.4;
+    }
+    img{
+     width: 250px;
+    height: auto;
+     -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
     }

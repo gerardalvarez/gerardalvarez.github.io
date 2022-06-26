@@ -47,14 +47,12 @@
     
 }
 .profile-parent {
-    position: absolute;
-    margin-left: 30%;
-    margin-right: 30%;
+    
     
 }
 
 .profile-name{
-    margin-top: 10px;
+    
     color: var(--slate);
     line-height: 0.9;
 }
@@ -66,13 +64,11 @@
     height: 100px;
 }
 .profile-efecto{
-    padding: 1px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    
 }
 .texto {
     text-align: center;
-    margin: 0 0 30px 4px;
+    
     color: #ddc8e9;
     font-size: 18px;
 }
