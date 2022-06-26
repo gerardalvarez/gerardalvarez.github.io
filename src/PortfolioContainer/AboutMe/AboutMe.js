@@ -4,11 +4,26 @@ import './aboutMe.css'
 
 
 
+
 const Aboutme = () => {
+  const item = {
+    hidden: {  opacity: 0 },
+    visible: {
+      opacity: 1
+    }
+  };
   return (
-    <><div className='a'>Aboutme</div>
-    <motion.button whileHover={{scale:4.5}}
-        >suuu</motion.button></>
+    <><div className='container'>
+      <motion.div 
+      initial="hidden"
+      animate="visible"
+        variants={item}
+        transition ={{duration:2}}
+        >
+           <a id='a' href="/aboutme">About Me</a></motion.div>
+    </div>
+   
+    </>
   )
 }
 

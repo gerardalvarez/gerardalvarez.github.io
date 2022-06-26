@@ -20,6 +20,14 @@ const icon = {
   }
 };
 
+const item = {
+  hidden: { y: 20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1
+  }
+};
+
 export default function Navbar() {
   
   const [show, setShow] = useState('active_and_top');
@@ -66,10 +74,37 @@ const shownav =() => {
     
     <><nav id="navbar" className={show}>
       <div className='navbuttons'>
-        <a id='a' href="/home">Home</a>
-        <a id='a' href="/aboutme">About Me</a>
-        <a id='a' href="/projects">Projects</a>
-        <a id='a' href="/contact">Contact</a>
+        <motion.a id='a' href="/home"
+        initial="hidden"
+        animate="visible"
+          variants={item}
+          transition ={{duration:1}}
+          >Home</motion.a>
+        <motion.a id='a' href="/About"
+        initial="hidden"
+        animate="visible"
+          variants={item}
+          transition ={{duration:0.8,delay:0.2}}
+          >About Me</motion.a>
+          <motion.a id='a' href="/skills"      
+        initial="hidden"
+        animate="visible"
+          variants={item}
+          transition ={{duration:0.8,delay:0.5}}
+          >Skills</motion.a>
+           <motion.a id='a' href="/projects"
+        initial="hidden"
+        animate="visible"
+          variants={item}
+          transition ={{duration:0.8, delay:0.8}}
+          >Projects</motion.a>
+          <motion.a id='a' href="/contact"   
+        initial="hidden"
+        animate="visible"
+          variants={item}
+          transition ={{duration:0.8, delay:1.1}}
+          >Contact</motion.a>
+         
       </div>
       <a href="/" className="logo">
         <motion.svg

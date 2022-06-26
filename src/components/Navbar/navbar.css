@@ -70,7 +70,7 @@ justify-content: right;
 height: 70px;
 width: 100%;
 
-padding-right: 10vh;
+padding-right: 7vh;
 
 
 }
@@ -79,7 +79,7 @@ padding-right: 10vh;
   display: flex;
   height: 57px;
   width: 60px;
-  padding-left: 12vh;
+  padding-left: 8vh;
   position: absolute;
 }
 
