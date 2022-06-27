@@ -80,25 +80,28 @@
     }
     .minombre{
        
-        color: #7d2585;
-        line-height : 70px;
+        color: #4e0ae2;
+        line-height : 35px;
         font-size: 7vh;
        
     }
     .profile-efecto{
         position: relative;
-        font-size: 2vh;
-        line-height : 20px;
-        top: -10px;
+        font-size: 3vh;
+        line-height : 35px;
+        top: -40px;
+        
     }
     .texto {
         text-align: center;
-       
-        color: #ddc8e9;
+      
+        color: #ab7bc7;
         font-size: 2vh;
     }
     .desc{
+        position: relative;
         font: 1vh;
+        top: -70px;
     }
 
     .img2 {
@@ -119,4 +122,8 @@
     -moz-user-drag: none;
     -o-user-drag: none;
     user-drag: none;
+    }
+
+    .resume-button {
+        width: 30px;
     }

@@ -19,33 +19,33 @@ const Sidebar = () => {
     <motion.div 
     initial={{opacity:0,x:-20}}
     animate={{opacity:1, x:0}}
-    transition ={{duration:0.8,delay:5}}>
+    transition ={{duration:0.8,delay:3.5}}>
     <SocialIcon url="https://github.com/" fgColor="#ffff" bgColor='transparent' style={{ height: 35, width: 35 }}/>
     </motion.div>
     <motion.div 
     initial={{opacity:0,x:-20}}
     animate={{opacity:1, x:0}}
-    transition ={{duration:0.8,delay:5}}>
+    transition ={{duration:0.8,delay:3.5}}>
     <SocialIcon url="https://www.instagram.com/" fgColor="#ffff" bgColor='transparent' style={{ height: 35, width: 35 }}/>
     </motion.div>
     <motion.div 
     initial={{opacity:0,x:-20}}
     animate={{opacity:1, x:0}}
-    transition ={{duration:0.8,delay:5}}>
+    transition ={{duration:0.8,delay:3.5}}>
   
   <SocialIcon url="https://twitter.com/jaketrent" fgColor="#ffff" bgColor='transparent' style={{ height: 35, width: 35 }}/>
   </motion.div>
   <motion.div 
     initial={{opacity:0,x:-20}}
     animate={{opacity:1, x:0}}
-    transition ={{duration:0.8,delay:5}}>
+    transition ={{duration:0.8,delay:3.5}}>
       <SocialIcon url="https://www.linkedin.com/" fgColor="#ffff" bgColor='transparent' style={{ height: 35, width: 35 }}/>
 </motion.div>
 <motion.hr 
    initial="hidden"
    animate="visible"
      variants={item}
-     transition ={{duration:0.8, delay:5}}
+     transition ={{duration:0.8, delay:3.5}}
   ></motion.hr>
 </div>
 
@@ -54,7 +54,7 @@ const Sidebar = () => {
     <motion.div 
     initial={{opacity:0,x:-20}}
     animate={{opacity:1, x:0}}
-    transition ={{duration:0.8,delay:5}}>
+    transition ={{duration:0.8,delay:3.5}}>
       <a id="aa" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gerardalvariz@gmail.com" target="_blank">gerardalvariz@gmail.com</a>
 </motion.div>
         
@@ -63,7 +63,7 @@ const Sidebar = () => {
    initial="hidden"
    animate="visible"
      variants={item}
-     transition ={{duration:0.8, delay:5}}
+     transition ={{duration:0.8, delay:3.5}}
   ></motion.hr>
 </div>
 </>
