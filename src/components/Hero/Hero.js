@@ -52,7 +52,7 @@ function Hero() {
                     1000,
                     "Nice guy ;)",
                     1000,
-                    "Maricona",
+                    "Payaso",
                     1000,
                   ]}
                 />
