@@ -1,26 +1,50 @@
-import React from 'react'
-import { motion } from 'framer-motion'  
+
+import React, { useEffect } from "react";  
 import './aboutMe.css'
+import { useInView } from "react-intersection-observer";
+import { motion, useAnimation } from "framer-motion";
 
 
 
+function Box() {
+  return (
+    <div
+      style={{
+        padding: 40,
+        background: "white",
+        display: "inline-block",
+        borderRadius: 5
+      }}
+    />
+  );
+}
 
 const Aboutme = () => {
-  const item = {
-    hidden: {  opacity: 0 },
-    visible: {
-      opacity: 1
+  
+  const controls = useAnimation();
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
     }
-  };
+  }, [controls, inView]);
+
   return (
     <><div className='container'>
-      <motion.div 
+     <motion.div
+      ref={ref}
+      animate={controls}
       initial="hidden"
-      animate="visible"
-        variants={item}
-        transition ={{duration:2}}
-        >
-           <a id='a' href="/aboutme">About Me</a></motion.div>
+      transition={{ duration: 0.3 }}
+      variants={{
+        visible: { opacity: 1, scale: 1 },
+        hidden: { opacity: 0, scale: 0 }
+      }}
+    >
+      <Box/>
+    </motion.div>
+           
     </div>
    
     </>
