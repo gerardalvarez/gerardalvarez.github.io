@@ -1,62 +1,74 @@
-
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: #111; /* Black */
-     overflow-y:hidden;
-   overflow-x:hidden;
-    padding-top: 20px;
-    background-color: transparent;
-    justify-content: flex-end;
-        display: flex;
-        align-items: center;
-        height: 100vh;
-        flex-direction: column;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-color: transparent;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
 
+.sidenav2 {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y: hidden;
+  padding-top: 20px;
+  background-color: transparent;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+hr {
+  margin-top: 20px;
+  height: 14vh;
+  width: 4px;
+  border-width: 0;
+  color: #000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 70px;
+}
+
+.email-container {
+  transform: rotate(90deg);
+  padding-right: 160px;
+}
+
+#aa {
+  color: white;
+  text-decoration: none;
+  font-size: smaller;
+}
+
+.su:hover {
+  zoom: 1.4;
+  transform: scale(2);
+  transition: all 2s;
+}
+
+@media screen and (max-width: 768px) {
+  .sidenav {
+    display: none;
   }
-  
+
   .sidenav2 {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    right: 0;
-    background-color: #111; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    overflow-y: hidden;
-    padding-top: 20px;
-    background-color: transparent;
-    justify-content: flex-end;
-        display: flex;
-        align-items: center;
-        height: 100vh;
-        flex-direction: column;
-
+    display: none;
   }
-
-  hr{
-    margin-top: 20px;
-    height:13vh;
-    width: 4px;;
-    border-width:0;
-    color:#000;
-    background-color:rgb(255, 255, 255);
-    border-radius: 70px;
-   }
-
-   .email-container {
-    transform: rotate(90deg);
-    padding-right: 160px; 
- }
-
- #aa {
-    color: white;
-    text-decoration: none;
-    font-size: smaller;
-    
- }
+}

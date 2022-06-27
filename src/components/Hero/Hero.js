@@ -1,14 +1,14 @@
 import "./hero.css";
 import { useState } from "react";
 import Typical from "react-typical";
-import image1 from "./Circle.png";
+import image1 from "./images/twoniggas.jpg";
 import { motion } from "framer-motion";
 
 function Hero() {
   return (
     <div className="hero">
       <div className="profile-container">
-        <div className="img2">
+        {/*<div className="img2">
           <motion.div
             initial={{ y: -100 }}
             animate={{ x: [0, 700, 0] }}
@@ -16,7 +16,7 @@ function Hero() {
           >
             <img src={image1} alt="a" />
           </motion.div>
-        </div>
+        </div>*/}
         <div className="profile-info">
           <div className="profile-name">
             <motion.h1
@@ -80,17 +80,17 @@ function Hero() {
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1, delay: 3.2 }}
+            transition={{ duration: 1, delay: 3.3 }}
           >
             <div class="categoryWrapper">
               <h1>Check my resume!</h1>
-              <button>
+              <a href={image1} target="_blank">
                 <span>
                   <span>
-                    <span data-attr-span="CV">Take a look</span>
+                    <span data-attr-span="CV"> Take a look</span>
                   </span>
                 </span>
-              </button>
+              </a>
             </div>
           </motion.div>
         </div>
