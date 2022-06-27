@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.743ff134.css",
+    "main.js": "/static/js/main.73bdb9ac.js",
+    "static/media/blackmar.jpeg": "/static/media/blackmar.96d71fdca569bdc4f3b8.jpeg",
+    "static/media/twoniggas.jpg": "/static/media/twoniggas.22379544ff44572b8ff1.jpg",
+    "index.html": "/index.html",
+    "main.743ff134.css.map": "/static/css/main.743ff134.css.map",
+    "main.73bdb9ac.js.map": "/static/js/main.73bdb9ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.743ff134.css",
+    "static/js/main.73bdb9ac.js"
+  ]
+}
