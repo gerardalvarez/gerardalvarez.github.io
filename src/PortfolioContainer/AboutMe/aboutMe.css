@@ -1,51 +1,232 @@
 .container {
-    height: 100vh;
-    width: 100%;
-    -webkit-animation: fadeIn 1 1s ease-out;
-      -moz-animation: fadeIn 1 1s ease-out;
-      -o-animation: fadeIn 1 1s ease-out;
-      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-      background-size: 400% 400%;
-      animation: gradient 10s ease infinite;
-    overflow: hidden;
-    position: relative;
-
+  height: 100vh;
+  width: 100%;
+  -webkit-animation: fadeIn 1 1s ease-out;
+  -moz-animation: fadeIn 1 1s ease-out;
+  -o-animation: fadeIn 1 1s ease-out;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  overflow: hidden;
+  position: relative;
 }
 
-
-
-
-
-
- 
 @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
   }
-  
-  @-webkit-keyframes fadeIn{
-  from{opacity: 0;}
-  to{opacity: 1;}
+  50% {
+    background-position: 100% 50%;
   }
-  
-  @-moz-keyframes fadeIn{
-  from{opacity: 0;}
-  to{opacity: 1;}
+  100% {
+    background-position: 0% 50%;
   }
-  
-  @-o-keyframes fadeIn{
-  from{opacity: 0;}
-  to{opacity: 1;}
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  
-  @keyframes fadeIn{
-  from{opacity: 0;}
-  to{opacity: 1;}
+  to {
+    opacity: 1;
   }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.categoryWrapper {
+  height: 100px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.categoryWrapper:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  opacity: 0;
+  -webkit-transition: opacity 0.9s ease 0s;
+}
+
+.categoryWrapper:hover:after {
+  opacity: 0.4;
+}
+
+.categoryWrapper h1 {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.15s ease 0s;
+  position: relative;
+  z-index: 10;
+}
+
+.categoryWrapper:hover h1 {
+  transform: translateY(-10px);
+}
+
+.categoryWrapper button {
+  position: absolute;
+  transform: translatey(60px);
+  -webkit-appearance: none;
+  border: none;
+  background: none;
+  color: white;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  z-index: 10;
+}
+
+.categoryWrapper button span {
+  display: block;
+  position: relative;
+  line-height: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.categoryWrapper button > span:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 20px;
+  height: 0;
+
+  border: 1px solid white;
+  border-left: none;
+  border-bottom: none;
+
+  transition: height 0.15s ease-out, width 0.15s ease-out 0.15s;
+}
+
+.categoryWrapper:hover button > span:after {
+  width: calc(50% - 1px);
+  height: calc(100% - 2px);
+  transition: width 0.15s ease-out, height 0.15s ease-out 0.15s;
+}
+
+.categoryWrapper button > span:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 50%;
+  width: 20px;
+  height: 0;
+
+  border: 1px solid white;
+  border-right: none;
+  border-bottom: none;
+
+  transition: height 0.15s ease-out, width 0.15s ease-out 0.15s;
+}
+
+.categoryWrapper:hover button > span:before {
+  width: calc(50% - 1px);
+  height: calc(100% - 2px);
+  transition: width 0.15s ease-out, height 0.15s ease-out 0.15s;
+}
+
+.categoryWrapper button > span > span:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.categoryWrapper:hover button > span > span:before {
+  opacity: 1;
+  border-bottom: 1px solid white;
+  width: calc(50%);
+  height: 1px;
+  transition: opacity 0s ease-out 0.29s, width 0.15s ease-out 0.3s;
+}
+
+.categoryWrapper button > span > span:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.categoryWrapper:hover button > span > span:after {
+  opacity: 1;
+  border-bottom: 1px solid white;
+  width: calc(50%);
+  height: 1px;
+  transition: opacity 0s ease-out 0.29s, width 0.15s ease-out 0.3s;
+}
+
+.categoryWrapper button > span > span > span {
+  transition: color 0.15s ease-out 0.3s;
+  color: transparent;
+}
+
+.categoryWrapper:hover button > span > span > span {
+  color: white;
+}
+
+.categoryWrapper button > span > span > span:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #1f2e4d;
+  content: attr(data-attr-span);
+  width: 0%;
+  height: 100%;
+  background: white;
+  white-space: nowrap;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  transition: width 0.2s;
+}
+
+.categoryWrapper button:hover > span > span > span:after {
+  width: 100%;
+}
