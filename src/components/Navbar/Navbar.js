@@ -70,7 +70,7 @@ export default function Navbar() {
         <div className="navbuttons">
           <motion.a
             id="a"
-            href="/home"
+            href="#hero"
             initial="hidden"
             animate="visible"
             variants={item}
@@ -80,7 +80,7 @@ export default function Navbar() {
           </motion.a>
           <motion.a
             id="a"
-            href="/About"
+            href="#About"
             initial="hidden"
             animate="visible"
             variants={item}

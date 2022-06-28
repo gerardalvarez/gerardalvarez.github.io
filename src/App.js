@@ -1,24 +1,20 @@
 import React from "react";
-import './App.css';
+import "./App.css";
 
 import Navbar from "./components/Navbar/Navbar";
-import  AboutMe  from "./PortfolioContainer/AboutMe/AboutMe";
+import AboutMe from "./PortfolioContainer/AboutMe/AboutMe";
 import Profile from "./PortfolioContainer/Home/Profile";
 import Hero from "./components/Hero/Hero";
 import Sidebar from "./components/Sidebar/Sidebar";
 
-
 const App = () => {
   return (
     <div className="app">
-      <Navbar/> 
+      <Navbar />
       <div className="sections">
-      <Sidebar/>
-      <Hero/>
-      <AboutMe/>
-      
-      
-    
+        <Sidebar />
+        <Hero id="Hero" />
+        <AboutMe id="About" />
       </div>
     </div>
   );

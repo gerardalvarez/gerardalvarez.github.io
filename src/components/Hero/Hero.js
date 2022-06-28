@@ -6,8 +6,9 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <div className="profile-container">
+        <div className="fondo"></div>
         {/*<div className="img2">
           <motion.div
             initial={{ y: -100 }}

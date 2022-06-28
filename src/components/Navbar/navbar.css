@@ -1,8 +1,5 @@
-
-
-.hola{
- display: none;
- 
+.hola {
+  display: none;
 }
 
 .active {
@@ -17,8 +14,6 @@
   z-index: 40;
   box-shadow: 0px 4px 28px -1px rgba(0, 0, 0, 0.75);
   opacity: 0.9;
-  
-
 }
 
 .active_and_top {
@@ -30,8 +25,6 @@
   display: flex;
   background-color: transparent;
   z-index: 999;
-  
-  
 }
 
 .hidden {
@@ -39,7 +32,6 @@
   width: 100%;
   z-index: 40;
   display: flex;
-
 
   box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.08);
   position: fixed;
@@ -55,8 +47,7 @@
   text-align: right;
   padding: 22px;
   text-decoration: none;
-  align-items: center;  
-  
+  align-items: center;
 }
 
 #a:hover {
@@ -64,15 +55,13 @@
   color: black;
 }
 
-.navbuttons{
-display: flex;
-justify-content: right;
-height: 70px;
-width: 100%;
+.navbuttons {
+  display: flex;
+  justify-content: right;
+  height: 70px;
+  width: 100%;
 
-padding-right: 7vh;
-
-
+  padding-right: 7vh;
 }
 
 .logo {
@@ -83,7 +72,6 @@ padding-right: 7vh;
   position: absolute;
 }
 
-
 .item {
   overflow: visible;
   stroke: rgb(255, 255, 255);
@@ -91,25 +79,18 @@ padding-right: 7vh;
   stroke-linejoin: round;
   stroke-linecap: round;
   padding-top: 22px;
-
-
-
-  
-  
 }
 
-
-
 @media screen and (max-width: 768px) {
-  
-  .hola{
+  .hola {
     display: flex;
     justify-content: flex-end;
-    align-items: center ;
+    align-items: center;
     height: 57px;
     width: 100%;
+    padding-right: 5vh;
   }
-  .navbuttons{
-    display:none;
+  .navbuttons {
+    display: none;
   }
 }
