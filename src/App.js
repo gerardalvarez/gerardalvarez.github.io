@@ -6,20 +6,51 @@ import AboutMe from "./PortfolioContainer/AboutMe/AboutMe";
 import Hero from "./components/Hero/Hero";
 import Sidebar from "./components/Sidebar/Sidebar";
 import { BrowserRouter } from "react-router-dom";
-import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
+import { useState,useEffect } from "react";
+import { SyncLoader } from "react-spinners";
+import { motion } from "framer-motion";
 
 const App = () => {
+
+const [loading, setLoading] =useState(false);
+
+useEffect(() => {
+    setLoading(true)
+    setTimeout(()=>{
+      setLoading(false)
+    },1500)
+
+
+},[])
+
   return (
     <BrowserRouter>
-      <div className="app">
+    {loading ? (
+      <div className="loader">
+    <SyncLoader 
+    size={30}
+    color={"#ffffff"}
+    loading={loading}
+    
+    />
+    </div>
+    )
+    :
+    (
+      <motion.div className="app"
+      initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 1 }}>
+        
         <Navbar />
         <div className="sections">
           <Sidebar />
           <Hero id="Hero" />
           <AboutMe id="About" />
         </div>
-      </div>
+      </motion.div>
+    )
+  }   
     </BrowserRouter>
   );
 };
