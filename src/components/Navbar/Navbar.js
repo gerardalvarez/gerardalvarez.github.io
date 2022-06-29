@@ -90,7 +90,7 @@ export default function Navbar() {
           </motion.a>
           <motion.a
             id="a"
-            href="#SkillsS"
+            href="#Skills"
             initial="hidden"
             animate="visible"
             variants={item}
@@ -100,7 +100,7 @@ export default function Navbar() {
           </motion.a>
           <motion.a
             id="a"
-            href="/projects"
+            href="#Projects"
             initial="hidden"
             animate="visible"
             variants={item}
