@@ -5,6 +5,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useEffect, useState } from "react";
 import XD from "./twoniggas.jpg";
 import "./projects.css";
+import { ScaleLoader } from "react-spinners";
 
 const Projects = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -27,7 +28,7 @@ const Projects = () => {
         <div>asdfjodfj</div>
       </Parallax>
       <Parallax className="ima2">
-        <div className="img22">
+        <div className="img22" style={{}}>
           <img src={XD} alt="a" />
         </div>
         <motion.div className="cosasa" id="Projects">
