@@ -90,7 +90,7 @@ export default function Navbar() {
           </motion.a>
           <motion.a
             id="a"
-            href="/skills"
+            href="#SkillsS"
             initial="hidden"
             animate="visible"
             variants={item}

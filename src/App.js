@@ -5,10 +5,13 @@ import Navbar from "./components/Navbar/Navbar";
 import AboutMe from "./PortfolioContainer/AboutMe/AboutMe";
 import Hero from "./components/Hero/Hero";
 import Sidebar from "./components/Sidebar/Sidebar";
+import Skills from "./components/Skills/Skills";
+import Projects from './components/Projects/Projects';
 import { BrowserRouter } from "react-router-dom";
 import { useState,useEffect } from "react";
 import { SyncLoader } from "react-spinners";
 import { motion } from "framer-motion";
+
 
 const App = () => {
 
@@ -45,8 +48,10 @@ useEffect(() => {
         <Navbar />
         <div className="sections">
           <Sidebar />
-          <Hero id="Hero" />
-          <AboutMe id="About" />
+          <Hero />
+          <AboutMe />
+          <Skills />
+          <Projects />
         </div>
       </motion.div>
     )
