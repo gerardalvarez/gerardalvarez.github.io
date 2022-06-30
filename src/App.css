@@ -9,7 +9,6 @@
   font-family: "Exo", sans-serif;
 }
 
-
 .loader {
   background-color: rgb(12, 11, 11);
   width: 100%;
@@ -18,6 +17,18 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  position: relative;
+}
+
+.container-load {
+  position: absolute;
+  color: white;
+  font-family: "Exo", sans-serif;
+
+  line-height: 35px;
+  font-size: 5vh;
+  margin-bottom: 20px;
+  top: 60%;
 }
 
 body {

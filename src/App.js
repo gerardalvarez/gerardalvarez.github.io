@@ -9,7 +9,7 @@ import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import { BrowserRouter } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { SyncLoader } from "react-spinners";
+import { PacmanLoader } from "react-spinners";
 import { motion } from "framer-motion";
 
 const App = () => {
@@ -19,14 +19,20 @@ const App = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1500);
+    }, 1700);
   }, []);
 
   return (
     <BrowserRouter>
       {loading ? (
         <div className="loader">
-          <SyncLoader size={30} color={"#ffffff"} loading={loading} />
+          <PacmanLoader
+            size={30}
+            color={"#FFD700"}
+            loading={loading}
+            className="pacman"
+          />
+          <div className="container-load">Loading...</div>
         </div>
       ) : (
         <motion.div
