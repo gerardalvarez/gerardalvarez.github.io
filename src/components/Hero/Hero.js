@@ -2,6 +2,7 @@ import "./hero.css";
 import { useState } from "react";
 import Typical from "react-typical";
 import image1 from "./images/twoniggas.jpg";
+import Emoji from "a11y-react-emoji";
 import { motion } from "framer-motion";
 
 function Hero() {
@@ -47,14 +48,14 @@ function Hero() {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Software developer",
-                    1000,
-                    "Engineering student",
-                    1000,
-                    "Nice guy ;)",
-                    1000,
-                    "Payaso",
-                    1000,
+                    "Software developer ",
+                    2000,
+                    "Engineering student 💻",
+                    2000,
+                    "Nice guy 😇",
+                    2000,
+                    "Payaso 😎",
+                    2000,
                   ]}
                 />
               </motion.h1>
