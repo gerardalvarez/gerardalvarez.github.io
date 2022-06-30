@@ -1,51 +1,77 @@
 .container-skills {
-    height: 180vh;
-    background-color: rgb(0, 0, 0);
+  height: 190vh;
+  background-color: rgb(0, 0, 0);
 }
 
 .fondox {
-    background-image: url("./los-10-sonidos-principales-del-perro.jpg");
-    z-index: 2;
-    /* Full height */
-    height: 50vh;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .fondox2 {
-    background-image: url("./descarga.png");
-    z-index: 2;
-    /* Full height */
-    height: 50vh;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-  }
-
-
-.aaas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
+  background-image: url("./am.jpg");
+  /* Full height */
+  height: 45vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
+.fondox-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 45vh;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.7);
+}
 
-  .cosas{
-  
-    background-color: transparent;
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    z-index: 3;
+.fondox2 {
+  background-image: url("./descarga.png");
+  z-index: 2;
+  /* Full height */
+  height: 45vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
+.aaas {
+  color: white;
+  font-family: "Exo", sans-serif;
+  position: absolute;
+  line-height: 35px;
+  font-size: 5vh;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.cosas {
+  background-color: transparent;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  z-index: 3;
+}
+
+.barra1 {
+  height: 3px;
+  background-color: #ffd700;
+  position: absolute;
+  width: 35%;
+  margin-right: 50%;
+}
+
+.barra2 {
+  height: 3px;
+  background-color: #ffd700;
+  position: absolute;
+  width: 35%;
+  margin-left: 50%;
 }

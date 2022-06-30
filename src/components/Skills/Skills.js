@@ -15,8 +15,17 @@ const Loader = () => {
   }, [control, inView]);
 
   return (
-    <div className="container-skills" id="Skills">
-      <div className="fondox">fjdfghjdyhgkh</div>
+    <div className="container-skills">
+      <div className="fondox">
+        <div className="fondox-container">
+          <b className="aaas" id="Skills">
+            About Me
+          </b>
+          <hr className="barra1" />
+          <hr className="barra2" />
+        </div>
+      </div>
+
       <motion.div
         className="cosas"
         id="SkillsS"

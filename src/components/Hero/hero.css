@@ -93,7 +93,7 @@
   color: whitesmoke;
 }
 .minombre {
-  color: whitesmoke;
+  color: #ffd700;
   line-height: 35px;
   font-size: 7vh;
 }
@@ -165,7 +165,7 @@ img {
 }
 
 .categoryWrapper h1 {
-  color: white;
+  color: #ffd700;
   font-size: 20px;
   letter-spacing: 2px;
   -webkit-transition: all 0.15s ease 0s;
@@ -287,7 +287,7 @@ img {
 }
 
 .categoryWrapper:hover a > span > span > span {
-  color: white;
+  color: whitesmoke;
   text-align: center;
 }
 

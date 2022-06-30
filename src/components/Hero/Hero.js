@@ -88,7 +88,7 @@ function Hero() {
               <a href={image1} target="_blank">
                 <span>
                   <span>
-                    <span data-attr-span="CV"> Take a look</span>
+                    <span data-attr-span="CV"> Take a look ;)</span>
                   </span>
                 </span>
               </a>
