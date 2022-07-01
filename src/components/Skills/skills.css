@@ -95,9 +95,38 @@ img.resize {
   position: absolute;
   margin-right: 60%;
   margin-left: 20%;
-  height: 300px;
-  width: 300px;
-  -webkit-box-shadow: -23px 23px 0px 0px rgba(255, 255, 255, 1);
-  -moz-box-shadow: -23px 23px 0px 0px rgba(255, 255, 255, 1);
-  box-shadow: -23px 23px 0px 0px rgba(255, 255, 255, 1);
+  height: 400px;
+  width: 400px;
+  -webkit-box-shadow: -23px 23px 0px 0px whitesmoke;
+  -moz-box-shadow: -23px 23px 0px 0px whitesmoke;
+  box-shadow: -23px 23px 0px 0px whitesmoke;
+}
+
+.texto-about {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  --b: 5px; /* thickness of the border */
+  --c: black; /* color of the border */
+  --w: 40px; /* width of border */
+
+  border: var(--b) solid transparent; /* space for the border */
+  --g: #0000 90deg, var(--c) 0;
+  background: conic-gradient(from 90deg at top var(--b) left var(--b), var(--g))
+      0 0,
+    conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--g)) 100%
+      100%;
+  background-size: var(--w) var(--w);
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 70vh;
+  margin-right: 30%;
+  margin-left: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-about:hover {
+  background-color: #ffd700;
 }

@@ -54,9 +54,7 @@ const Loader = () => {
           data-aos="fade-right"
           data-aos-offset="200"
           duration="3000"
-        >
-          dfsdfsfsfsdsfdsfsdfssf
-        </div>
+        ></div>
 
         <img
           class="resize"
@@ -66,6 +64,19 @@ const Loader = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
         />
+        <div
+          className="texto-about"
+          data-aos="fade-right"
+          data-aos-offset="200"
+          duration="3000"
+        >
+          <div style={{ padding: "8px" }}>
+            Hola kasdjhisdhfisda adfhñdosfhjoñásdjfoñásdf
+            afsdioafhoásdfjoáisdjfoásdfj afjoasdfhjiaojfp+çajdf
+            afjoàisdfjp+ajfp+asjofap+çefjpaeofjapef
+            fao`wiefhao`´iefjioàfjao`wefij
+          </div>
+        </div>
       </div>
       <div className="fondox2"></div>
     </div>
