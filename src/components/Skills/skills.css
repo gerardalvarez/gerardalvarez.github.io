@@ -27,7 +27,7 @@
 }
 
 .fondox2 {
-  background-image: url("./descarga.png");
+  background-image: url("./1031930086.jpg");
   z-index: 2;
   /* Full height */
   height: 45vh;
@@ -48,16 +48,18 @@
   padding-top: 20px;
 }
 
-.cosas {
+.container-about {
   background-color: transparent;
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
+  flex-direction: row;
   align-items: center;
   text-align: center;
   color: white;
   z-index: 3;
+  position: relative;
 }
 
 .barra1 {
@@ -78,4 +80,24 @@
 
 .xd {
   background-color: aqua;
+}
+
+.blanco {
+  background-color: whitesmoke;
+  height: 92vh;
+  width: 60%;
+  margin-left: 22%;
+  position: absolute;
+}
+
+img.resize {
+  background-color: #ffd700;
+  position: absolute;
+  margin-right: 60%;
+  margin-left: 20%;
+  height: 300px;
+  width: 300px;
+  -webkit-box-shadow: -23px 23px 0px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: -23px 23px 0px 0px rgba(255, 255, 255, 1);
+  box-shadow: -23px 23px 0px 0px rgba(255, 255, 255, 1);
 }

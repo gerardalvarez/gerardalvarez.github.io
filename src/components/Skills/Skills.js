@@ -3,6 +3,7 @@ import "./skills.css";
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
+import image1 from "./twoniggas.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -17,7 +18,7 @@ const Loader = () => {
   }, [control, inView]);
 
   useEffect(() => {
-    Aos.init({});
+    Aos.init({ duration: 2000 });
   }, []);
 
   return (
@@ -29,7 +30,6 @@ const Loader = () => {
             data-aos="fade-up"
             data-aos-offset="100"
             duration="800"
-            id="Skills"
           >
             About Me
           </b>
@@ -48,21 +48,24 @@ const Loader = () => {
         </div>
       </div>
 
-      <div className="cosas">
-        <motion.div
-          className="xd"
-          ref={ref1}
-          id="SkillsS"
-          animate={control}
-          initial="hidden"
-          transition={{ duration: 3 }}
-          variants={{
-            visible: { opacity: 1, scale: 1 },
-            hidden: { opacity: 0, scale: 1 },
-          }}
+      <div className="container-about" id="Skills">
+        <div
+          className="blanco"
+          data-aos="fade-right"
+          data-aos-offset="200"
+          duration="3000"
         >
           dfsdfsfsfsdsfdsfsdfssf
-        </motion.div>
+        </div>
+
+        <img
+          class="resize"
+          src={image1}
+          alt="a"
+          data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        />
       </div>
       <div className="fondox2"></div>
     </div>
