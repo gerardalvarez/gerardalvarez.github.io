@@ -49,13 +49,6 @@ const Loader = () => {
       </div>
 
       <div className="container-about" id="Skills">
-        <div
-          className="blanco"
-          data-aos="fade-right"
-          data-aos-offset="200"
-          duration="3000"
-        ></div>
-
         <img
           class="resize"
           src={image1}
@@ -78,7 +71,9 @@ const Loader = () => {
           </div>
         </div>
       </div>
-      <div className="fondox2"></div>
+      <div className="fondox2">
+        <div className="fondox-container"></div>
+      </div>
     </div>
   );
 };

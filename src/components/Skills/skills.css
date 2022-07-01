@@ -27,7 +27,7 @@
 }
 
 .fondox2 {
-  background-image: url("./1031930086.jpg");
+  background-image: url("./neon.jpg");
   z-index: 2;
   /* Full height */
   height: 45vh;
@@ -58,8 +58,12 @@
   align-items: center;
   text-align: center;
   color: white;
-  z-index: 3;
+  box-shadow: 0px 8px 10px 4px rgba(0, 0, 0, 0.75);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.1);
   position: relative;
+  -webkit-box-shadow: 0px 17px 26px 12px rgba(0, 0, 0, 0.89);
+  -moz-box-shadow: 0px 17px 26px 12px rgba(0, 0, 0, 0.89);
+  box-shadow: 0px 17px 26px 12px rgba(0, 0, 0, 0.89);
 }
 
 .barra1 {
@@ -83,8 +87,8 @@
 }
 
 .blanco {
-  background-color: whitesmoke;
-  height: 92vh;
+  background-color: rgb(255, 215, 0, 0.7);
+  height: 100vh;
   width: 60%;
   margin-left: 22%;
   position: absolute;
@@ -97,16 +101,16 @@ img.resize {
   margin-left: 20%;
   height: 400px;
   width: 400px;
-  -webkit-box-shadow: -23px 23px 0px 0px whitesmoke;
-  -moz-box-shadow: -23px 23px 0px 0px whitesmoke;
-  box-shadow: -23px 23px 0px 0px whitesmoke;
+  -webkit-box-shadow: -23px 23px 0px 0px rgb(255, 215, 0, 0.7);
+  -moz-box-shadow: -23px 23px 0px 0px rgb(255, 215, 0, 0.7);
+  box-shadow: -23px 23px 0px 0px rgb(255, 215, 0, 0.7);
 }
 
 .texto-about {
   position: absolute;
-  color: rgb(0, 0, 0);
+  color: white;
   --b: 5px; /* thickness of the border */
-  --c: black; /* color of the border */
+  --c: #ffd700; /* color of the border */
   --w: 40px; /* width of border */
 
   border: var(--b) solid transparent; /* space for the border */
