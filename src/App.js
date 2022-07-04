@@ -2,10 +2,10 @@ import React from "react";
 import "./App.css";
 
 import Navbar from "./components/Navbar/Navbar";
-import AboutMe from "./PortfolioContainer/AboutMe/AboutMe";
+import Skills from "./components/Skills/Skills";
 import Hero from "./components/Hero/Hero";
 import Sidebar from "./components/Sidebar/Sidebar";
-import Skills from "./components/Skills/Skills";
+import AboutMe from "./components/AboutMe/Aboutme";
 import Projects from "./components/Projects/Projects";
 import { BrowserRouter } from "react-router-dom";
 import { useState, useEffect } from "react";
@@ -45,9 +45,8 @@ const App = () => {
           <div className="sections">
             <Sidebar />
             <Hero />
-
-            <Skills />
             <AboutMe />
+            <Skills />
             <Projects />
           </div>
         </motion.div>

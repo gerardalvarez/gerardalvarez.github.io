@@ -1,0 +1,138 @@
+.container-about1 {
+  height: 190vh;
+  background-color: rgb(0, 0, 0);
+}
+
+.fondox {
+  background-image: url("./am.jpg");
+  /* Full height */
+  height: 45vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.fondox-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 45vh;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.7);
+}
+
+.fondox2 {
+  background-image: url("./neon.jpg");
+  z-index: 2;
+  /* Full height */
+  height: 45vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
+.aaas {
+  color: white;
+  font-family: "Exo", sans-serif;
+  position: absolute;
+  line-height: 35px;
+  font-size: 5vh;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.container-about {
+  background-color: transparent;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 8px 10px 4px rgba(0, 0, 0, 0.75);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  -webkit-box-shadow: 0px 17px 26px 12px rgba(0, 0, 0, 0.89);
+  -moz-box-shadow: 0px 17px 26px 12px rgba(0, 0, 0, 0.89);
+  box-shadow: 0px 17px 26px 12px rgba(0, 0, 0, 0.89);
+}
+
+.barra1 {
+  height: 3px;
+  background-color: #ffd700;
+  position: absolute;
+  width: 35%;
+  margin-right: 50%;
+}
+
+.barra2 {
+  height: 3px;
+  background-color: #ffd700;
+  position: absolute;
+  width: 35%;
+  margin-left: 50%;
+}
+
+.xd {
+  background-color: aqua;
+}
+
+.blanco {
+  background-color: rgb(255, 215, 0, 0.7);
+  height: 100vh;
+  width: 60%;
+  margin-left: 22%;
+  position: absolute;
+}
+
+img.resize {
+  background-color: #ffd700;
+  position: absolute;
+  margin-right: 60%;
+  margin-left: 20%;
+  height: 400px;
+  width: 400px;
+  -webkit-box-shadow: -23px 23px 0px 0px rgb(255, 215, 0, 0.7);
+  -moz-box-shadow: -23px 23px 0px 0px rgb(255, 215, 0, 0.7);
+  box-shadow: -23px 23px 0px 0px rgb(255, 215, 0, 0.7);
+}
+
+.texto-about {
+  position: absolute;
+  color: white;
+  --b: 5px; /* thickness of the border */
+  --c: #ffd700; /* color of the border */
+  --w: 40px; /* width of border */
+
+  border: var(--b) solid transparent; /* space for the border */
+  --g: #0000 90deg, var(--c) 0;
+  background: conic-gradient(from 90deg at top var(--b) left var(--b), var(--g))
+      0 0,
+    conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--g)) 100%
+      100%;
+  background-size: var(--w) var(--w);
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 70vh;
+  margin-right: 30%;
+  margin-left: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-about:hover {
+  background-color: #ffd700;
+  color: black;
+  border-radius: 4rem;
+}

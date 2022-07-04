@@ -80,7 +80,7 @@ export default function Navbar() {
           </motion.a>
           <motion.a
             id="a"
-            href="#About"
+            href="#Aboutme"
             initial="hidden"
             animate="visible"
             variants={item}
@@ -90,7 +90,7 @@ export default function Navbar() {
           </motion.a>
           <motion.a
             id="a"
-            href="#Skills"
+            href="#hooo"
             initial="hidden"
             animate="visible"
             variants={item}

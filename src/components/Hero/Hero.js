@@ -1,8 +1,6 @@
 import "./hero.css";
-import { useState } from "react";
 import Typical from "react-typical";
 import image1 from "./images/twoniggas.jpg";
-import Emoji from "a11y-react-emoji";
 import { motion } from "framer-motion";
 
 function Hero() {
