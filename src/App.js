@@ -47,7 +47,6 @@ const App = () => {
             <Hero />
             <AboutMe />
             <Skills />
-            <Projects />
           </div>
         </motion.div>
       )}

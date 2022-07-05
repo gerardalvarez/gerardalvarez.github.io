@@ -88,9 +88,36 @@
     height: 57px;
     width: 100%;
     padding-right: 5vh;
+    max-width: 100% !important;
+    overflow: hidden !important;
+    z-index: 1;
   }
   .navbuttons {
     display: none;
+  }
+  .active_abierta {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    transition: 0.4s linear;
+    top: 0;
+    display: flex;
+    background-color: black;
+    z-index: 1;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    overflow: hidden;
+  }
+  .navbuttons_mov {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    overflow: hidden;
   }
 }
 

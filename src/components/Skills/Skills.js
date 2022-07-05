@@ -23,17 +23,17 @@ const Skills = () => {
   return (
     <>
       <div className="container" id="hooo">
-        <div></div>
+        <div>Drag me</div>
         <motion.hr
           className="barrita-kse-mueve1"
           initial={{ y: 0 }}
-          animate={{ y: [400, -400, 400] }}
+          animate={{ y: [460, -460, 460] }}
           transition={{ repeat: Infinity, duration: 5 }}
         />
         <motion.hr
           className="barrita-kse-mueve2"
           initial={{ y: 0 }}
-          animate={{ y: [-400, 400, -400] }}
+          animate={{ y: [-460, 460, -460] }}
           transition={{ repeat: Infinity, duration: 5 }}
         />
         <div className="titulox" data-aos="fade-up">

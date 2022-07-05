@@ -47,10 +47,11 @@ const AboutMe = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
         />
+
         <motion.div
           className="texto-about"
           data-aos="fade-right"
-          data-aos-offset="200"
+          data-aos-offset="100"
           duration="3000"
           initial={{ scale: 1 }}
           animate={{ scale: [1.5, 1] }}
@@ -58,10 +59,10 @@ const AboutMe = () => {
           style={{ padding: "8px" }}
         >
           <div style={{ padding: "8px" }}>
-            Hola kasdjhisdhfisda adfhñdosfhjoñásdjfoñásdf
-            afsdioafhoásdfjoáisdjfoásdfj afjoasdfhjiaojfp+çajdf
-            afjoàisdfjp+ajfp+asjofap+çefjpaeofjapef
-            fao`wiefhao`´iefjioàfjao`wefij
+            Hla kasdjsdgsdfgserfdgersdgersgasergegaegag dfsdgafksdgfgk
+            fgpfsdogkpsfdgjopsfohj sdfhpsfodjhpsfhjopsdfho sdfhofdjhpsd
+            fsdp`gikopsd`fhof fopigjsfp`dobjpfdbo f`bjsfpdobj fiobsjfdb`j+pbjof
+            fbopajiop`fbjpfsdogjpdfgojk osdfjiga`j ````ç
           </div>
         </motion.div>
       </div>

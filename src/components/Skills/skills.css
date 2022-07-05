@@ -1,5 +1,5 @@
 .container {
-  height: 150vh;
+  height: 160vh;
   width: 100%;
   position: relative;
   display: flex;
@@ -43,4 +43,32 @@
   font-family: "Exo", sans-serif;
   font-size: 5vh;
   margin-bottom: 5%;
+  --b: 5px; /* thickness of the border */
+  --c: #ffd700; /* color of the border */
+  --w: 40px; /* width of border */
+
+  border: var(--b) solid transparent; /* space for the border */
+  --g: #0000 90deg, var(--c) 0;
+  background: conic-gradient(from 90deg at top var(--b) left var(--b), var(--g))
+      0 0,
+    conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--g)) 100%
+      100%;
+  background-size: var(--w) var(--w);
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+  .container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
 }

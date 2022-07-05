@@ -2,7 +2,9 @@ import { useRef } from "react";
 import "./navbar.css";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { TbClearAll } from "react-icons/tb";
+import { FaBeer } from "react-icons/fa";
+import { BsArrowRight } from "react-icons/bs";
 import { IconContext } from "react-icons";
 
 const icon = {
@@ -29,9 +31,21 @@ const item = {
 export default function Navbar() {
   const [show, setShow] = useState("active_and_top");
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [activa_mov, setActiva_mov] = useState("navbuttons");
+  const [icono, setIcono] = useState("nav__toggler");
+
+  const abrebarra = () => {
+    activa_mov === "navbuttons"
+      ? setActiva_mov("navbuttons_mov")
+      : setActiva_mov("navbuttons");
+    icono === "3barras" ? setIcono("cruz") : setIcono("3barras");
+    show !== "active_abierta"
+      ? setShow("active_abierta")
+      : setShow("active_and_top");
+  };
 
   const controlNavbar = () => {
-    if (typeof window !== "undefined") {
+    if (typeof window !== "undefined" && show !== "active_abierta") {
       if (window.scrollY > lastScrollY) {
         // if scroll down hide the navbar
         setShow("hidden");
@@ -44,6 +58,8 @@ export default function Navbar() {
       if (window.pageYOffset === 0) {
         setShow("active_and_top");
       }
+      if (activa_mov === "navbuttosn_mov") setShow("active_abierta");
+      setActiva_mov("navbuttons");
     }
   };
 
@@ -67,7 +83,7 @@ export default function Navbar() {
   return (
     <>
       <nav id="navbar" className={show}>
-        <div className="navbuttons">
+        <div className={activa_mov}>
           <motion.a
             id="a"
             href="#hero"
@@ -75,6 +91,7 @@ export default function Navbar() {
             animate="visible"
             variants={item}
             transition={{ duration: 1 }}
+            onClick={abrebarra}
           >
             Home
           </motion.a>
@@ -85,6 +102,7 @@ export default function Navbar() {
             animate="visible"
             variants={item}
             transition={{ duration: 0.8, delay: 0.2 }}
+            onClick={abrebarra}
           >
             About Me
           </motion.a>
@@ -95,6 +113,7 @@ export default function Navbar() {
             animate="visible"
             variants={item}
             transition={{ duration: 0.8, delay: 0.5 }}
+            onClick={abrebarra}
           >
             Skills
           </motion.a>
@@ -105,6 +124,7 @@ export default function Navbar() {
             animate="visible"
             variants={item}
             transition={{ duration: 0.8, delay: 0.8 }}
+            onClick={abrebarra}
           >
             Projects
           </motion.a>
@@ -140,11 +160,21 @@ export default function Navbar() {
             />
           </motion.svg>
         </a>
-        <IconContext.Provider value={{ color: "white", size: "20px" }}>
+        <IconContext.Provider
+          value={{
+            color: "white",
+            style: { verticalAlign: "middle", paddingTop: "10px" },
+            size: "50px",
+          }}
+        >
           <div className="hola">
-            <button>
-              <FaBars />
-            </button>
+            <div onClick={abrebarra}>
+              {activa_mov === "navbuttons" ? (
+                <TbClearAll data-aos="zoom-out" data-aos-duration="1000" />
+              ) : (
+                <BsArrowRight data-aos="zoom-out" data-aos-duration="1000" />
+              )}
+            </div>
           </div>
         </IconContext.Provider>
       </nav>
