@@ -3,7 +3,7 @@ import "./skills.css";
 import { motion } from "framer-motion";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { lenguajesoalgo } from "./images";
+import { lenguajesoalgo, otrascosas } from "./images";
 
 function Box() {
   return (
@@ -23,7 +23,22 @@ const Skills = () => {
   return (
     <>
       <div className="container" id="hooo">
-        <div className="titulox">Programming languages </div>
+        <div></div>
+        <motion.hr
+          className="barrita-kse-mueve1"
+          initial={{ y: 0 }}
+          animate={{ y: [400, -400, 400] }}
+          transition={{ repeat: Infinity, duration: 5 }}
+        />
+        <motion.hr
+          className="barrita-kse-mueve2"
+          initial={{ y: 0 }}
+          animate={{ y: [-400, 400, -400] }}
+          transition={{ repeat: Infinity, duration: 5 }}
+        />
+        <div className="titulox" data-aos="fade-up">
+          Programming <span style={{ color: "#ffd700" }}>languages</span>{" "}
+        </div>
         <div className="skill-carrousel" data-aos="fade-left">
           <motion.div
             whileDrag={{ cursor: "grabbing" }}
@@ -40,7 +55,10 @@ const Skills = () => {
             })}
           </motion.div>
         </div>
-        <div className="titulox">Web development </div>
+        <div className="titulox" data-aos="fade-down">
+          <span style={{ color: "#ffd700" }}>Web</span> development &{" "}
+          <span style={{ color: "#ffd700" }}>others</span>
+        </div>
         <div className="skill-carrousel" data-aos="fade-right">
           <motion.div
             whileDrag={{ cursor: "grabbing" }}
@@ -48,7 +66,7 @@ const Skills = () => {
             dragConstraints={{ right: 0, left: -850 }}
             className="skill-carrouselxd"
           >
-            {lenguajesoalgo.map((image) => {
+            {otrascosas.map((image) => {
               return (
                 <motion.div className="itemima" key={image}>
                   <img src={image} alt="" />
@@ -58,7 +76,12 @@ const Skills = () => {
           </motion.div>
         </div>
         <div data-aos="fade-up">
-          <Box />
+          <div className="textito" style={{ paddingTop: "30px" }}>
+            Check all my skills{" "}
+            <a style={{ color: "#ffd700" }} href="#hero" target="_blank">
+              here
+            </a>
+          </div>
         </div>
       </div>
     </>

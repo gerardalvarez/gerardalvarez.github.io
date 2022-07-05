@@ -4,7 +4,7 @@
 }
 
 .fondox {
-  background-image: url("./am.jpg");
+  background-image: url("./nar.jpg");
   /* Full height */
   height: 45vh;
   /* Create the parallax scrolling effect */
@@ -86,24 +86,22 @@
   background-color: aqua;
 }
 
-.blanco {
-  background-color: rgb(255, 215, 0, 0.7);
-  height: 100vh;
-  width: 60%;
-  margin-left: 22%;
-  position: absolute;
-}
-
-img.resize {
+.resize {
   background-color: #ffd700;
   position: absolute;
   margin-right: 60%;
   margin-left: 20%;
   height: 400px;
   width: 400px;
-  -webkit-box-shadow: -23px 23px 0px 0px rgb(255, 215, 0, 0.7);
-  -moz-box-shadow: -23px 23px 0px 0px rgb(255, 215, 0, 0.7);
-  box-shadow: -23px 23px 0px 0px rgb(255, 215, 0, 0.7);
+  -webkit-box-shadow: -23px 23px 0px 0px rgb(255, 215, 0, 1);
+  -moz-box-shadow: -23px 23px 0px 0px rgb(255, 215, 0, 1);
+  box-shadow: -23px 23px 0px 0px rgb(255, 215, 0, 1);
+}
+
+.resize:hover {
+  -webkit-box-shadow: -23px 23px 0px 0px white;
+  -moz-box-shadow: -23px 23px 0px 0px white;
+  box-shadow: -23px 23px 0px 0px white;
 }
 
 .texto-about {
@@ -132,7 +130,31 @@ img.resize {
 }
 
 .texto-about:hover {
-  background-color: #ffd700;
-  color: black;
-  border-radius: 4rem;
+  color: #ffd700;
+  --b: 5px; /* thickness of the border */
+  --c: white; /* color of the border */
+  --w: 40px; /* width of border */
+
+  border: var(--b) solid transparent; /* space for the border */
+  --g: #0000 90deg, var(--c) 0;
+  background: conic-gradient(from 90deg at top var(--b) left var(--b), var(--g))
+      0 0,
+    conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--g)) 100%
+      100%;
+  background-size: var(--w) var(--w);
+  background-origin: border-box;
+  background-repeat: no-repeat;
+}
+
+.barrita-kse-mueve1 {
+  position: absolute;
+  margin-left: 70%;
+}
+.barrita-kse-mueve2 {
+  position: absolute;
+  margin-right: 70%;
+}
+
+.textito {
+  color: white;
 }

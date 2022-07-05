@@ -40,7 +40,7 @@ const AboutMe = () => {
 
       <div className="container-about" id="Aboutme">
         <img
-          class="resize"
+          className="resize"
           src={image1}
           alt="a"
           data-aos="flip-right"
@@ -54,7 +54,7 @@ const AboutMe = () => {
           duration="3000"
           initial={{ scale: 1 }}
           animate={{ scale: [1.5, 1] }}
-          transition={{ repeat: 25, duration: 1 }}
+          transition={{ repeat: Infinity, duration: 1 }}
           style={{ padding: "8px" }}
         >
           <div style={{ padding: "8px" }}>

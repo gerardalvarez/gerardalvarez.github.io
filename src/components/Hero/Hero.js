@@ -82,7 +82,7 @@ function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 3.3 }}
           >
-            <div class="categoryWrapper">
+            <div className="categoryWrapper">
               <h1>Check my resume!</h1>
               <a href={image1} target="_blank">
                 <span>

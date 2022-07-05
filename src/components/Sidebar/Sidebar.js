@@ -14,7 +14,7 @@ const item = {
 const Sidebar = () => {
   return (
     <>
-      <div class="sidenav">
+      <div className="sidenav">
         <motion.div
           className="su"
           initial={{ opacity: 0, x: -20 }}
@@ -74,8 +74,8 @@ const Sidebar = () => {
           transition={{ duration: 0.8, delay: 3.5 }}
         ></motion.hr>
       </div>
-      <div class="sidenav2">
-        <div class="email-container">
+      <div className="sidenav2">
+        <div className="email-container">
           <motion.div
             className="su"
             initial={{ opacity: 0, x: -20 }}

@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Skills from "./components/Skills/Skills";
 import Hero from "./components/Hero/Hero";
 import Sidebar from "./components/Sidebar/Sidebar";
-import AboutMe from "./components/AboutMe/Aboutme";
+import AboutMe from "./components/AboutMe/AboutMe";
 import Projects from "./components/Projects/Projects";
 import { BrowserRouter } from "react-router-dom";
 import { useState, useEffect } from "react";
