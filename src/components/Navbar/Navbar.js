@@ -73,11 +73,6 @@ export default function Navbar() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lastScrollY]);
 
-  const navRef = useRef();
-
-  const shownav = () => {
-    navRef.current.classList.toggle("responsive");
-  };
   return (
     <>
       <nav id="navbar" className={show}>
