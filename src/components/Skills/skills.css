@@ -56,10 +56,19 @@
   background-size: var(--w) var(--w);
   background-origin: border-box;
   background-repeat: no-repeat;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.barrita-kse-mueve1 {
+  position: absolute;
+  margin-left: 70%;
+}
+.barrita-kse-mueve2 {
+  position: absolute;
+  margin-right: 70%;
 }
 
 @media screen and (max-width: 768px) {
@@ -70,5 +79,21 @@
   .container {
     max-width: 100% !important;
     overflow-x: hidden !important;
+    height: 160vh;
+    width: 100%;
+  }
+  .titulox {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 3vh;
+  }
+
+  .barrita-kse-mueve1 {
+    position: absolute;
+    margin-left: 80%;
+  }
+  .barrita-kse-mueve2 {
+    position: absolute;
+    margin-right: 80%;
   }
 }

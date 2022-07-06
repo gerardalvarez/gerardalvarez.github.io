@@ -32,20 +32,18 @@ export default function Navbar() {
   const [show, setShow] = useState("active_and_top");
   const [lastScrollY, setLastScrollY] = useState(0);
   const [activa_mov, setActiva_mov] = useState("navbuttons");
-  const [icono, setIcono] = useState("nav__toggler");
 
   const abrebarra = () => {
     activa_mov === "navbuttons"
       ? setActiva_mov("navbuttons_mov")
       : setActiva_mov("navbuttons");
-    icono === "3barras" ? setIcono("cruz") : setIcono("3barras");
     show !== "active_abierta"
       ? setShow("active_abierta")
       : setShow("active_and_top");
   };
 
   const controlNavbar = () => {
-    if (typeof window !== "undefined" && show !== "active_abierta") {
+    if (typeof window !== "undefined") {
       if (window.scrollY > lastScrollY) {
         // if scroll down hide the navbar
         setShow("hidden");
@@ -86,7 +84,7 @@ export default function Navbar() {
         <div className={activa_mov}>
           <motion.a
             id="a"
-            href="#hero"
+            href="/"
             initial="hidden"
             animate="visible"
             variants={item}
@@ -97,7 +95,7 @@ export default function Navbar() {
           </motion.a>
           <motion.a
             id="a"
-            href="#Aboutme"
+            href="/#Aboutme"
             initial="hidden"
             animate="visible"
             variants={item}
@@ -108,7 +106,7 @@ export default function Navbar() {
           </motion.a>
           <motion.a
             id="a"
-            href="#hooo"
+            href="/#hooo"
             initial="hidden"
             animate="visible"
             variants={item}
@@ -119,7 +117,7 @@ export default function Navbar() {
           </motion.a>
           <motion.a
             id="a"
-            href="#Projects"
+            href="/#Projects"
             initial="hidden"
             animate="visible"
             variants={item}

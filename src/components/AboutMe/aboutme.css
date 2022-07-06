@@ -146,20 +146,11 @@
   background-repeat: no-repeat;
 }
 
-.barrita-kse-mueve1 {
-  position: absolute;
-  margin-left: 70%;
-}
-.barrita-kse-mueve2 {
-  position: absolute;
-  margin-right: 70%;
-}
-
 .textito {
   color: white;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   body {
     overflow-x: hidden !important;
     max-width: 100% !important;
@@ -174,6 +165,54 @@
     position: relative;
     display: flex;
     height: 120vh;
+    flex-direction: column;
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+  .fondox-container {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+
+  .barra1 {
+    display: none;
+  }
+
+  .barra2 {
+    display: none;
+  }
+  .texto-about {
+    position: absolute;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    word-break: break-all;
+    top: 500px;
+    height: auto;
+  }
+  .resize {
+    top: 40px;
+    margin: 10%;
+    width: 70%;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+  body {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+  .container-about1 {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+    height: auto;
+  }
+  .container-about {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    height: 70vh;
     flex-direction: column;
     overflow-x: hidden !important;
     max-width: 100% !important;

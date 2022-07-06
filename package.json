@@ -21,6 +21,7 @@
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "react-scroll-motion": "^0.3.0",
+    "react-scroll-to-top": "^1.0.8",
     "react-social-icons": "^5.13.0",
     "react-spinners": "^0.13.2",
     "react-typical": "^0.1.3",

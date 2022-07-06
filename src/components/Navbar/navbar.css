@@ -32,7 +32,7 @@
   width: 100%;
   z-index: 40;
   display: flex;
-  box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 5px -1px rgba(182, 15, 15, 0.08);
   position: fixed;
   top: -80px;
   transition: 0.3s;

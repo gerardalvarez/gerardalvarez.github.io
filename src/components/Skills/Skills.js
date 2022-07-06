@@ -1,25 +1,18 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./skills.css";
 import { motion } from "framer-motion";
-import Aos from "aos";
+
 import "aos/dist/aos.css";
 import { lenguajesoalgo, otrascosas } from "./images";
 
-function Box() {
-  return (
-    <div
-      style={{
-        padding: 40,
-        background: "white",
-        display: "inline-block",
-        borderRadius: 5,
-      }}
-    />
-  );
-}
-
 const Skills = () => {
-  const constraintsRef = useRef(null);
+  const [width, setWidth] = useState(0);
+  const carrousel = useRef();
+
+  useEffect(() => {
+    console.log(carrousel.current.scrollWidth, carrousel.current.offsetWidth);
+    setWidth(carrousel.current.scrollWidth - carrousel.current.offsetWidth);
+  }, []);
   return (
     <>
       <div className="container" id="hooo">
@@ -37,13 +30,13 @@ const Skills = () => {
           transition={{ repeat: Infinity, duration: 5 }}
         />
         <div className="titulox" data-aos="fade-up">
-          Programming <span style={{ color: "#ffd700" }}>languages</span>{" "}
+          Programming <span style={{ color: "#ffd700" }}>languages</span> I know{" "}
         </div>
-        <div className="skill-carrousel" data-aos="fade-left">
+        <div ref={carrousel} className="skill-carrousel" data-aos="fade-left">
           <motion.div
             whileDrag={{ cursor: "grabbing" }}
             drag="x"
-            dragConstraints={{ right: 0, left: -850 }}
+            dragConstraints={{ right: 0, left: -width }}
             className="skill-carrouselxd"
           >
             {lenguajesoalgo.map((image) => {
@@ -63,7 +56,7 @@ const Skills = () => {
           <motion.div
             whileDrag={{ cursor: "grabbing" }}
             drag="x"
-            dragConstraints={{ right: 0, left: -850 }}
+            dragConstraints={{ right: 0, left: -width }}
             className="skill-carrouselxd"
           >
             {otrascosas.map((image) => {
