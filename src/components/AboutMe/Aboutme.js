@@ -1,5 +1,5 @@
 import React from "react";
-import "./aboutme.css";
+import "./aboutMe.css";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 import image1 from "./twoniggas.jpg";
@@ -59,10 +59,16 @@ const AboutMe = () => {
           style={{ padding: "8px" }}
         >
           <div style={{ padding: "8px" }}>
-            Hla kasdjsdgsdfgserfdgersdgersgasergegaegag dfsdgafksdgfgk
-            fgpfsdogkpsfdgjopsfohj sdfhpsfodjhpsfhjopsdfho sdfhofdjhpsd
-            fsdp`gikopsd`fhof fopigjsfp`dobjpfdbo f`bjsfpdobj fiobsjfdb`j+pbjof
-            fbopajiop`fbjpfsdogjpdfgojk osdfjiga`j ````ç
+            Hey! I am a 21-year-old student at the Universitat Politècnica de
+            Catalunya (FIB) based in Barcelona. I have studied different
+            programming languages and software architectures since I have
+            specialized in that. However, much of my knowledge is self-taught,
+            so I have no problem learning new technologies. I consider myself a
+            Full-Stack developer since I can handle the different layers.{" "}
+            <p>
+              I will love to hear from you, whether it's a project, job
+              opportunity or just chat. Feel free to to contact me HERE.
+            </p>
           </div>
         </motion.div>
       </div>

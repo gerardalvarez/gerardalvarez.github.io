@@ -11,6 +11,10 @@
   box-shadow: 0px 0px 10px 12px rgba(0, 0, 0, 0.75);
 }
 
+.textito {
+  color: white;
+}
+
 .itemima {
   min-height: 300px;
   min-width: 300px;
@@ -79,7 +83,7 @@
   .container {
     max-width: 100% !important;
     overflow-x: hidden !important;
-    height: 180vh;
+    height: 170vh;
     width: 100%;
   }
   .titulox {

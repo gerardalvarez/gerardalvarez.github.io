@@ -65,16 +65,13 @@ function Hero() {
             transition={{ duration: 1, delay: 2.8 }}
           >
             <p className="desc">
-              I’m a software engineer specializing in building and occasionally
-              designing exceptional digital experiences. Currently, I’m focused
-              on building çI’m a software engineer specializing in building and
-              occasionally designing exceptional digital experiences. Currently,
-              I’m focused on building I’m a software engineer specializing in
-              building and occasionally designing exceptional digital
-              experiences. Currently, I’m focused on building I’m a software
-              engineer specializing in building and occasionally designing
-              exceptional digital experiences. Currently, I’m focused on
-              building
+              I’m a computer engineer specialized in software developmenet.
+              Currently, I am looking foward to complement my career with an
+              experience in the IT sector that will allow me to put into
+              practice everything I have learned and to continue to evolve both
+              professionally and personally. Therefore, I put at your disposal
+              my knowledge, my motivation, my best will to get involved in the
+              growth of new projects and to be able to work with a new team.
             </p>
           </motion.div>
           <motion.div

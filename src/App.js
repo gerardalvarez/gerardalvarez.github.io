@@ -22,6 +22,7 @@ const Section = () => {
       <Hero />
       <AboutMe />
       <Skills />
+      <Hero />
       <ScrollToTop
         smooth
         top="1000"

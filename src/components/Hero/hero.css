@@ -112,10 +112,11 @@
 }
 .desc {
   position: relative;
-  font: 1vh;
+  font-size: 2vh;
   top: -70px;
   color: whitesmoke;
-  word-break: break-all;
+  word-break: break-word;
+  text-align: justify;
 }
 
 .img2 {
@@ -370,7 +371,8 @@ img {
     top: -50px;
 
     color: whitesmoke;
-    word-break: break-all;
+    word-break: break-word;
+    text-align: justify;
   }
 
   .categoryWrapper {
