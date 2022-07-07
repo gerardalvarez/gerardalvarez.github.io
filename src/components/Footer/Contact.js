@@ -46,7 +46,7 @@ const Contact = () => {
   }, 8000);
   return (
     <div className="fondo-con">
-      <div class="wrapper2">
+      <div class="wrapper2" id="Contact">
         <div class="inner2">
           <form ref={form} onSubmit={sendEmail}>
             <h3 className="con">Contact Me</h3>

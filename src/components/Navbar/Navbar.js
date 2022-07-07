@@ -123,7 +123,7 @@ export default function Navbar() {
           </motion.a>
           <motion.a
             id="a"
-            href="/contact"
+            href="/#Contact"
             initial="hidden"
             animate="visible"
             variants={item}

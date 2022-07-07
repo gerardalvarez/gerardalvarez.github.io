@@ -41,6 +41,15 @@
   border-radius: 4rem;
   width: 60%;
 }
+.aviso {
+  position: absolute;
+  color: white;
+  margin-bottom: 8%;
+}
+
+.aviso span {
+  color: #ffd700;
+}
 
 .titulox {
   color: white;
@@ -86,6 +95,9 @@
     height: 180vh;
     width: 100%;
   }
+  .skill-carrousel {
+    margin-bottom: 40%;
+  }
   .titulox {
     margin-left: 20%;
     margin-right: 20%;
@@ -99,5 +111,9 @@
   .barrita-kse-mueve2 {
     position: absolute;
     margin-right: 80%;
+  }
+  .aviso {
+    margin: 20%;
+    padding-bottom: 70%;
   }
 }

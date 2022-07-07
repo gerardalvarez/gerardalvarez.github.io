@@ -7,16 +7,19 @@ import { lenguajesoalgo, otrascosas } from "./images";
 
 const Skills = () => {
   const [width, setWidth] = useState(0);
+  const [width2, setWidth2] = useState(0);
+
   const carrousel = useRef();
+  const carrousel2 = useRef();
 
   useEffect(() => {
     console.log(carrousel.current.scrollWidth, carrousel.current.offsetWidth);
     setWidth(carrousel.current.scrollWidth - carrousel.current.offsetWidth);
+    setWidth2(carrousel2.current.scrollWidth - carrousel2.current.offsetWidth);
   }, []);
   return (
     <>
       <div className="container" id="hooo">
-        <div>Drag me</div>
         <motion.hr
           className="barrita-kse-mueve1"
           initial={{ y: 0 }}
@@ -29,6 +32,10 @@ const Skills = () => {
           animate={{ y: [-460, 460, -460] }}
           transition={{ repeat: Infinity, duration: 5 }}
         />
+        <div className="aviso">
+          {"("} <span>Grab</span> an icon and <span>drag it </span> in order to
+          discover more ! {")"}
+        </div>
         <div className="titulox" data-aos="fade-up">
           Programming <span style={{ color: "#ffd700" }}>languages</span> I know{" "}
         </div>
@@ -52,11 +59,11 @@ const Skills = () => {
           <span style={{ color: "#ffd700" }}>Web</span> development &{" "}
           <span style={{ color: "#ffd700" }}>others</span>
         </div>
-        <div className="skill-carrousel" data-aos="fade-right">
+        <div ref={carrousel2} className="skill-carrousel" data-aos="fade-right">
           <motion.div
             whileDrag={{ cursor: "grabbing" }}
             drag="x"
-            dragConstraints={{ right: 0, left: -width }}
+            dragConstraints={{ right: 0, left: -width2 }}
             className="skill-carrouselxd"
           >
             {otrascosas.map((image) => {
