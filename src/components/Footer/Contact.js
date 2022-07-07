@@ -5,7 +5,7 @@ import { SocialIcon } from "react-social-icons";
 import "./contact.css";
 
 const Result = () => {
-  return <div className="mes">Your mensage has been successfully sent</div>;
+  return <div className="mes">Your menssage has been successfully sent</div>;
 };
 
 const item = {
