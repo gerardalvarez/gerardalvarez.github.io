@@ -1,11 +1,20 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { motion } from "framer-motion";
+import { SocialIcon } from "react-social-icons";
 import "./contact.css";
 
 const Result = () => {
   return <div className="mes">Your mensage has been successfully sent</div>;
 };
 
+const item = {
+  hidden: { y: 40, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+  },
+};
 const Contact = () => {
   const [result, setResult] = useState(false);
   const form = useRef();
@@ -78,7 +87,64 @@ const Contact = () => {
         </div>
 
         <div class="foot">Made by Gerard Álvarez</div>
-        <div class="footer-mov"></div>
+        <div class="footer-mov">
+          <div class="iconos-redes">
+            <motion.div
+              className="su2"
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 3.5 }}
+            >
+              <SocialIcon
+                url="https://github.com/gerardalvarez"
+                fgColor="#ffff"
+                bgColor="transparent"
+                style={{ height: "8vh", width: "8vh" }}
+              />
+            </motion.div>
+            <motion.div
+              className="su2"
+              initial={{ opacity: 0, x: -20, scale: 1 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 3.5 }}
+            >
+              <SocialIcon
+                url="https://www.instagram.com/gerardalvarez_/"
+                fgColor="#ffff"
+                bgColor="transparent"
+                style={{ height: "8vh", width: "8vh" }}
+              />
+            </motion.div>
+            <motion.div
+              className="su2"
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 3.5 }}
+            >
+              <SocialIcon
+                url="https://twitter.com/gerardalvarez00"
+                fgColor="#ffff"
+                bgColor="transparent"
+                style={{ height: "8vh", width: "8vh" }}
+              />
+            </motion.div>
+            <motion.div
+              className="su2"
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 3.5 }}
+            >
+              <SocialIcon
+                url="https://www.linkedin.com/in/gerardalvarezizquierdo/"
+                fgColor="#ffff"
+                bgColor="transparent"
+                style={{ height: "8vh", width: "8vh" }}
+              />
+            </motion.div>
+          </div>
+          <div class="nombre">gerardalvariz@gmail.com</div>
+          <div class="nombre2">Made by Gerard Álvarez</div>
+        </div>
       </div>
     </div>
   );
