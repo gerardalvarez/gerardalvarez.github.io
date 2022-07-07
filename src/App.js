@@ -7,6 +7,7 @@ import Hero from "./components/Hero/Hero";
 import Sidebar from "./components/Sidebar/Sidebar";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Projects from "./components/Projects/Projects";
+import Contact from "./components/Footer/Contact";
 import Err from "./err";
 import ScrollToTop from "react-scroll-to-top";
 import { BrowserRouter } from "react-router-dom";
@@ -22,7 +23,7 @@ const Section = () => {
       <Hero />
       <AboutMe />
       <Skills />
-      <Hero />
+      <Contact />
       <ScrollToTop
         smooth
         top="1000"
