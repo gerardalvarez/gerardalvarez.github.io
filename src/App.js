@@ -23,6 +23,7 @@ const Section = () => {
       <Hero />
       <AboutMe />
       <Skills />
+      <Projects />
       <Contact />
       <ScrollToTop
         smooth
