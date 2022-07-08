@@ -94,6 +94,7 @@
     overflow-x: hidden !important;
     height: 180vh;
     width: 100%;
+    position: relative;
   }
   .skill-carrousel {
     margin-bottom: 40%;

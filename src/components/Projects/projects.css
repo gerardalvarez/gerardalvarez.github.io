@@ -1,25 +1,6 @@
-.cosasa {
-  background-color: transparent;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-}
-.ima {
-  position: relative;
-  height: 50vh;
-}
-
-.img22 {
-  width: 100%;
+#tsparticles {
   position: absolute;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column;
-  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+  z-index: -3;
 }
