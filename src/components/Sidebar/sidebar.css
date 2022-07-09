@@ -1,6 +1,6 @@
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  width: 130px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -20,7 +20,7 @@
 
 .sidenav2 {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  width: 130px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -40,7 +40,7 @@
 
 hr {
   margin-top: 20px;
-  height: 15vh;
+  height: 10vh;
   width: 4px;
   border-width: 0;
   color: #000;
@@ -50,13 +50,13 @@ hr {
 
 .email-container {
   transform: rotate(90deg);
-  margin-bottom: 80%;
+  margin-bottom: 60%;
 }
 
 #aa {
   color: white;
   text-decoration: none;
-  font-size: 2vh;
+  font-size: 1.6vh;
 }
 
 .su:hover {

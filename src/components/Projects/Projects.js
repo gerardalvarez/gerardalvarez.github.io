@@ -3,6 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useEffect, useState } from "react";
 import "./projects.css";
 import Particles from "react-tsparticles";
+import Stars from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
 const Projects = () => {
@@ -20,11 +21,8 @@ const Projects = () => {
   };
 
   return (
-    <div className="container" style={{ position: "relative" }}>
-      <div
-        className="particles-container"
-        style={{ position: "absolute", width: "100%" }}
-      >
+    <div className="container-out" style={{ position: "relative" }}>
+      <div className="particles-container">
         <Particles
           id="tsparticles"
           init={particlesInit}
@@ -54,7 +52,7 @@ const Projects = () => {
                 value: "#ffffff",
               },
               links: {
-                color: "#ffffff",
+                color: "#ffd700",
                 distance: 150,
                 enable: true,
                 opacity: 0.5,
@@ -94,6 +92,29 @@ const Projects = () => {
           }}
         />
       </div>
+      <div className="titulox-container">
+        <b
+          className="aaas"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          duration="800"
+        >
+          My projects
+        </b>
+        <hr
+          data-aos="fade-right"
+          data-aos-offset="100"
+          duration="800"
+          className="barra1"
+        />
+        <hr
+          data-aos="fade-left"
+          data-aos-offset="100"
+          duration="800"
+          className="barra2"
+        />
+      </div>
+      <div className="projects-container"></div>
     </div>
   );
 };

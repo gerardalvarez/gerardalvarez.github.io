@@ -25,7 +25,7 @@ const Sidebar = () => {
             url="https://github.com/gerardalvarez"
             fgColor="#ffff"
             bgColor="transparent"
-            style={{ height: 55, width: 55 }}
+            style={{ height: 45, width: 45 }}
           />
         </motion.div>
         <motion.div
@@ -38,7 +38,7 @@ const Sidebar = () => {
             url="https://www.instagram.com/gerardalvarez_/"
             fgColor="#ffff"
             bgColor="transparent"
-            style={{ height: 55, width: 55 }}
+            style={{ height: 45, width: 45 }}
           />
         </motion.div>
         <motion.div
@@ -51,7 +51,7 @@ const Sidebar = () => {
             url="https://twitter.com/gerardalvarez00"
             fgColor="#ffff"
             bgColor="transparent"
-            style={{ height: 55, width: 55 }}
+            style={{ height: 45, width: 45 }}
           />
         </motion.div>
         <motion.div
@@ -64,7 +64,7 @@ const Sidebar = () => {
             url="https://www.linkedin.com/in/gerardalvarezizquierdo/"
             fgColor="#ffff"
             bgColor="transparent"
-            style={{ height: 55, width: 55 }}
+            style={{ height: 45, width: 45 }}
           />
         </motion.div>
         <motion.hr

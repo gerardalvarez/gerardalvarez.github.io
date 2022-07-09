@@ -1,6 +1,5 @@
 .container-about1 {
   height: 190vh;
-  background-color: rgb(0, 0, 0);
 }
 
 .fondox {
@@ -16,7 +15,6 @@
 }
 
 .fondox-container {
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,7 +68,7 @@
   height: 3px;
   background-color: #ffd700;
   position: absolute;
-  width: 35%;
+  width: 35vw;
   margin-right: 50%;
 }
 

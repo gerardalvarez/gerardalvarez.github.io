@@ -4,3 +4,32 @@
   height: 100%;
   z-index: -3;
 }
+
+.projects-container {
+  height: 110vh;
+  background-color: aqua;
+  width: 60%;
+}
+
+.container-out {
+  height: 120vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-box-shadow: 0px 0px 10px 12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 12px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 12px rgba(0, 0, 0, 0.75);
+}
+
+.titulox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 15vh;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.7);
+}
