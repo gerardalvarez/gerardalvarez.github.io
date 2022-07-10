@@ -12,7 +12,7 @@
   padding: 40px;
   display: grid;
   grid-template-columns: auto auto;
-  grid-row-gap: 10px;
+  grid-row-gap: 40px;
   grid-column-gap: 90px;
   margin-top: 30px;
 }
@@ -101,18 +101,18 @@
     overflow-x: hidden !important;
   }
   .projects-container {
-    height: 160vh;
+    height: 200vh;
     background-color: transparent;
     width: 70%;
     padding: 10px;
     display: grid;
     grid-template-columns: auto;
-    grid-row-gap: 50px;
+    grid-row-gap: 30px;
     grid-column-gap: 30px;
     overflow: hidden;
   }
   .container-out {
-    height: 190vh;
+    height: auto;
     width: 100%;
     position: relative;
     display: flex;
@@ -127,5 +127,8 @@
     height: 300px;
     min-width: 250px;
     max-height: 300px;
+  }
+  .particles-container {
+    display: none;
   }
 }

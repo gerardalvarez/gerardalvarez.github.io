@@ -40,6 +40,10 @@ body {
 
 @media screen and (max-width: 767px) {
   .loader {
+    display: flex;
+    padding-bottom: 70%;
+  }
+  .container-load {
     display: none;
   }
 }
