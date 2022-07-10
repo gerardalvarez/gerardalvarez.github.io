@@ -6,7 +6,7 @@
 }
 
 .projects-container {
-  height: 110vh;
+  height: 100vh;
   background-color: transparent;
   width: 60%;
   padding: 40px;
@@ -18,7 +18,7 @@
 }
 
 .container-out {
-  height: 120vh;
+  height: 100vh;
   width: 100%;
   position: relative;
   display: flex;
@@ -46,8 +46,7 @@
   background-color: black;
   border: 5px solid #ffd700;
   min-width: 200px;
-  max-width: 700px;
-  max-height: 400px;
+  max-height: 300px;
   border-radius: 4rem;
   display: flex;
   justify-content: center;
@@ -104,17 +103,16 @@
   .projects-container {
     height: 160vh;
     background-color: transparent;
-    width: 60%;
+    width: 70%;
     padding: 10px;
     display: grid;
     grid-template-columns: auto;
     grid-row-gap: 50px;
-    grid-column-gap: 70px;
-    margin-right: 20%;
-    margin-left: 20%;
+    grid-column-gap: 30px;
+    overflow: hidden;
   }
   .container-out {
-    height: 180vh;
+    height: 190vh;
     width: 100%;
     position: relative;
     display: flex;
@@ -126,8 +124,8 @@
     box-shadow: 0px 12px 10px 12px rgba(0, 0, 0, 0.75);
   }
   .caja {
-    height: 200px;
-    min-width: 200px;
+    height: 300px;
+    min-width: 250px;
     max-height: 300px;
   }
 }

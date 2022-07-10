@@ -59,7 +59,11 @@ const Skills = () => {
           <span style={{ color: "#ffd700" }}>Web</span> development &{" "}
           <span style={{ color: "#ffd700" }}>others</span>
         </div>
-        <div ref={carrousel2} className="skill-carrousel" data-aos="fade-right">
+        <div
+          ref={carrousel2}
+          className="skill-carrousel2"
+          data-aos="fade-right"
+        >
           <motion.div
             whileDrag={{ cursor: "grabbing" }}
             drag="x"

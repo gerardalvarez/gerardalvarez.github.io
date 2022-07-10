@@ -38,6 +38,12 @@ body {
   overflow: overlay;
 }
 
+@media screen and (max-width: 767px) {
+  .loader {
+    display: none;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }

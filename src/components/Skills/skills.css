@@ -1,5 +1,5 @@
 .container {
-  height: 140vh;
+  height: 180vh;
   width: 100%;
   position: relative;
   display: flex;
@@ -34,6 +34,14 @@
 }
 
 .skill-carrousel {
+  cursor: grab;
+  overflow: hidden;
+  margin-bottom: 3%;
+
+  border-radius: 4rem;
+  width: 60%;
+}
+.skill-carrousel2 {
   cursor: grab;
   overflow: hidden;
   margin-bottom: 3%;
@@ -98,6 +106,9 @@
   }
   .skill-carrousel {
     margin-bottom: 40%;
+  }
+  .skill-carrousel2 {
+    margin-bottom: 20%;
   }
   .titulox {
     margin-left: 20%;
