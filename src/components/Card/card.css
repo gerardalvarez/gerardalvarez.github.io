@@ -19,3 +19,12 @@
   box-shadow: rgba(100, 100, 111, 0.2);
   padding: 20px;
 }
+@media screen and (max-width: 767px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .card {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

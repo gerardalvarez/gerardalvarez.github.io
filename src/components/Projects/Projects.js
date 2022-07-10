@@ -5,6 +5,7 @@ import "./projects.css";
 import Particles from "react-tsparticles";
 import Card from "../Card/Card";
 import { loadFull } from "tsparticles";
+import { lenguajesoalgo } from "../Skills/images";
 
 const Projects = () => {
   const particlesInit = async (main) => {
@@ -117,15 +118,26 @@ const Projects = () => {
       </div>
       <div className="projects-container">
         <div className="caja" onClick={() => setOpen(1)}>
-          HOLA
+          <img className="img-proj" src={lenguajesoalgo[0]} alt="" />
+          <div className="info-proj"> TITULO</div>
         </div>
-        <div className="caja">HOLA</div>
-        <div className="caja">HOLA</div>
-        <div className="caja">HOLA</div>
-        <div className="caja">HOLA</div>
-        <div className="caja">HOLA</div>
+        <div className="caja">
+          <img className="img-proj" src={lenguajesoalgo[0]} alt="" />
+        </div>
+        <div className="caja">
+          <img className="img-proj" src={lenguajesoalgo[0]} alt="" />
+        </div>
+        <div className="caja">
+          <img className="img-proj" src={lenguajesoalgo[0]} alt="" />
+        </div>
+        <div className="caja">
+          <img className="img-proj" src={lenguajesoalgo[0]} alt="" />
+        </div>
+        <div className="caja">
+          <img className="img-proj" src={lenguajesoalgo[0]} alt="" />
+        </div>
       </div>
-      <Card estado={open} changeEstado={setOpen} />
+      <Card estado={open} changeEstado={setOpen} titulo="hola" />
     </div>
   );
 };
