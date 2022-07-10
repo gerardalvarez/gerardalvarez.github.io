@@ -12,8 +12,9 @@
   padding: 40px;
   display: grid;
   grid-template-columns: auto auto;
-  grid-row-gap: 50px;
+  grid-row-gap: 20px;
   grid-column-gap: 70px;
+  margin-top: 30px;
 }
 
 .container-out {
@@ -41,7 +42,7 @@
 }
 
 .caja {
-  background-color: grey;
+  background-color: black;
   border: 5px solid #ffd700;
   min-width: 200px;
   max-height: 300px;
@@ -55,8 +56,9 @@
 
 .img-proj {
   margin: 0;
-  padding: 0;
-  height: 100px;
+
+  height: 100%;
+  width: auto;
 }
 
 .info-proj {
@@ -67,10 +69,30 @@
   background-color: rgb(0, 0, 0, 0.8);
   color: white;
   transition: all 0.6s;
+  display: flex;
+
+  align-items: center;
+  font-size: 2.5vh;
+  flex-direction: column;
+  overflow: hidden;
+  font-weight: bolder;
 }
 
 .caja:hover .info-proj {
   height: 200px;
+}
+
+.tit {
+  margin: 40px;
+}
+.infomore {
+  background-color: #ffd700;
+  border-radius: 4rem;
+  padding: 10px;
+  font-size: 2vh;
+  color: black;
+  font-weight: normal;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
@@ -78,13 +100,28 @@
     overflow-x: hidden !important;
   }
   .projects-container {
-    height: 110vh;
-    background-color: aqua;
+    height: 160vh;
+    background-color: transparent;
     width: 60%;
     padding: 10px;
     display: grid;
     grid-template-columns: auto;
     grid-row-gap: 50px;
     grid-column-gap: 70px;
+  }
+  .container-out {
+    height: 180vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 10px 12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 12px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 12px 10px 12px rgba(0, 0, 0, 0.75);
+  }
+  .caja {
+    height: 200px;
   }
 }

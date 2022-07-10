@@ -5,7 +5,7 @@ import "./projects.css";
 import Particles from "react-tsparticles";
 import Card from "../Card/Card";
 import { loadFull } from "tsparticles";
-import { lenguajesoalgo } from "../Skills/images";
+import { proj_fotos } from "./images";
 
 const Projects = () => {
   const particlesInit = async (main) => {
@@ -23,7 +23,11 @@ const Projects = () => {
 
   const [open, setOpen] = useState(0);
   return (
-    <div className="container-out" style={{ position: "relative" }}>
+    <div
+      className="container-out"
+      style={{ position: "relative" }}
+      id="Projects"
+    >
       <div className="particles-container">
         <Particles
           id="tsparticles"
@@ -117,24 +121,41 @@ const Projects = () => {
         />
       </div>
       <div className="projects-container">
-        <div className="caja" onClick={() => setOpen(1)}>
-          <img className="img-proj" src={lenguajesoalgo[0]} alt="" />
-          <div className="info-proj"> TITULO</div>
+        <div className="caja">
+          <img className="img-proj" src={proj_fotos[1]} alt="" />
+          <div className="info-proj">
+            <p className="tit">My website</p>
+            <div className="infomore" onClick={() => setOpen(1)}>
+              more info
+            </div>
+          </div>
         </div>
         <div className="caja">
-          <img className="img-proj" src={lenguajesoalgo[0]} alt="" />
+          <img className="img-proj" src={proj_fotos[2]} alt="" />
+          <div className="info-proj">
+            <p className="tit">Java SpreadSheet app</p>
+            <div className="infomore" onClick={() => setOpen(1)}>
+              more info
+            </div>
+          </div>
         </div>
         <div className="caja">
-          <img className="img-proj" src={lenguajesoalgo[0]} alt="" />
+          <img className="img-proj" src={proj_fotos[0]} alt="" />
+          <div className="info-proj">
+            <p className="tit">Hacker-news Clone</p>
+            <div className="infomore" onClick={() => setOpen(1)}>
+              more info
+            </div>
+          </div>
         </div>
         <div className="caja">
-          <img className="img-proj" src={lenguajesoalgo[0]} alt="" />
-        </div>
-        <div className="caja">
-          <img className="img-proj" src={lenguajesoalgo[0]} alt="" />
-        </div>
-        <div className="caja">
-          <img className="img-proj" src={lenguajesoalgo[0]} alt="" />
+          <img className="img-proj" src={proj_fotos[3]} alt="" />
+          <div className="info-proj">
+            <p className="tit">Wordle Clone</p>
+            <div className="infomore" onClick={() => setOpen(1)}>
+              more info
+            </div>
+          </div>
         </div>
       </div>
       <Card estado={open} changeEstado={setOpen} titulo="hola" />
