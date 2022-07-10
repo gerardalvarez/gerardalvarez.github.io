@@ -3,7 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useEffect, useState } from "react";
 import "./projects.css";
 import Particles from "react-tsparticles";
-import Stars from "react-tsparticles";
+import Card from "../Card/Card";
 import { loadFull } from "tsparticles";
 
 const Projects = () => {
@@ -20,6 +20,7 @@ const Projects = () => {
     console.log(container);
   };
 
+  const [open, setOpen] = useState(0);
   return (
     <div className="container-out" style={{ position: "relative" }}>
       <div className="particles-container">
@@ -114,7 +115,17 @@ const Projects = () => {
           className="barra2"
         />
       </div>
-      <div className="projects-container"></div>
+      <div className="projects-container">
+        <div className="caja" onClick={() => setOpen(1)}>
+          HOLA
+        </div>
+        <div className="caja">HOLA</div>
+        <div className="caja">HOLA</div>
+        <div className="caja">HOLA</div>
+        <div className="caja">HOLA</div>
+        <div className="caja">HOLA</div>
+      </div>
+      <Card estado={open} changeEstado={setOpen} />
     </div>
   );
 };

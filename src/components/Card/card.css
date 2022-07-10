@@ -1,0 +1,21 @@
+.card-container {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.card {
+  width: 500px;
+  min-height: 400px;
+  background: green;
+  position: relative;
+  border-radius: 4vh;
+  box-shadow: rgba(100, 100, 111, 0.2);
+  padding: 20px;
+}

@@ -9,6 +9,11 @@
   height: 110vh;
   background-color: aqua;
   width: 60%;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: 50px;
+  grid-column-gap: 70px;
 }
 
 .container-out {
@@ -32,4 +37,11 @@
   height: 15vh;
   width: 100%;
   background-color: rgb(0, 0, 0, 0.7);
+  margin-bottom: 40px;
+}
+
+.caja {
+  background-color: grey;
+  border: 5px solid purple;
+  width: 700px;
 }
