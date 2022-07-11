@@ -6,13 +6,7 @@ const Card = ({ children, estado, changeEstado, titulo }) => {
   return (
     <AnimatePresence>
       {estado && (
-        <div
-          className="card-container"
-          onClick={() => {
-            changeEstado(0);
-            console.log(estado);
-          }}
-        >
+        <div className="card-container">
           <motion.div
             initial={{ scale: 0 }}
             animate={{ scale: 1, transition: { duration: 0.3 } }}
