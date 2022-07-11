@@ -9,9 +9,7 @@
 .fondo {
   background-image: url("./images/blackmar.jpeg");
   z-index: -2;
-
   height: 150vh;
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -88,6 +86,76 @@ img {
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden !important;
+    max-width: 768px !important;
+  }
+  .fondo {
+    max-width: 768px !important;
+    min-width: 768px !important;
+  }
+
+  .hero {
+    height: 120vh;
+    max-width: 768px !important;
+    overflow-x: hidden !important;
+  }
+  .profile-container {
+    height: 120vh;
+    max-width: 768px !important;
+    overflow-x: hidden !important;
+  }
+  .profile-info {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    overflow-x: hidden !important;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .profile-name {
+    color: whitesmoke;
+    position: relative;
+  }
+  .minombre {
+    color: rgba(0, 0, 0, 0.808);
+    line-height: 71px;
+    font-size: 6vh;
+    background-color: rgb(255, 255, 255, 0.2);
+  }
+  .profile-efecto {
+    position: relative;
+    font-size: 2vh;
+    height: 15vh;
+    color: whitesmoke;
+  }
+  .texto {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2vh;
+
+    top: 10px;
+    position: absolute;
+  }
+  .desc {
+    position: relative;
+    font-size: 2vh;
+    top: -50px;
+
+    color: whitesmoke;
+    word-break: break-word;
+    text-align: justify;
+  }
+
+  .categoryWrapper {
+    display: none;
+  }
 }
 
 /* Css del boton resume */
@@ -272,73 +340,3 @@ img {
 }
 
 /*  */
-
-@media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden !important;
-    max-width: 768px !important;
-  }
-  .fondo {
-    max-width: 768px !important;
-    min-width: 768px !important;
-  }
-
-  .hero {
-    height: 120vh;
-    max-width: 768px !important;
-    overflow-x: hidden !important;
-  }
-  .profile-container {
-    height: 120vh;
-    max-width: 768px !important;
-    overflow-x: hidden !important;
-  }
-  .profile-info {
-    position: absolute;
-    justify-content: center;
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    overflow-x: hidden !important;
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-
-  .profile-name {
-    color: whitesmoke;
-    position: relative;
-  }
-  .minombre {
-    color: rgba(0, 0, 0, 0.808);
-    line-height: 71px;
-    font-size: 6vh;
-    background-color: rgb(255, 255, 255, 0.2);
-  }
-  .profile-efecto {
-    position: relative;
-    font-size: 2vh;
-    height: 15vh;
-    color: whitesmoke;
-  }
-  .texto {
-    text-align: center;
-    color: whitesmoke;
-    font-size: 2vh;
-
-    top: 10px;
-    position: absolute;
-  }
-  .desc {
-    position: relative;
-    font-size: 2vh;
-    top: -50px;
-
-    color: whitesmoke;
-    word-break: break-word;
-    text-align: justify;
-  }
-
-  .categoryWrapper {
-    display: none;
-  }
-}
