@@ -96,7 +96,7 @@
   .container {
     max-width: 768px !important;
     overflow-x: hidden !important;
-    height: 180vh;
+    height: 190vh;
     min-width: 100%;
     position: relative;
   }

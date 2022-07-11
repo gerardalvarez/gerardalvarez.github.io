@@ -278,6 +278,11 @@ img {
     overflow-x: hidden !important;
     max-width: 768px !important;
   }
+  .fondo {
+    max-width: 768px !important;
+    min-width: 768px !important;
+  }
+
   .hero {
     height: 120vh;
     max-width: 768px !important;

@@ -216,6 +216,14 @@
     max-width: 768px !important;
   }
 
+  .fondox {
+    max-width: 768px !important;
+    min-width: 768px !important;
+  }
+  .fondox2 {
+    max-width: 768px !important;
+    min-width: 768px !important;
+  }
   .barra1 {
     display: none;
   }
