@@ -58,5 +58,10 @@
   .card {
     margin-left: 5%;
     margin-right: 5%;
+    width: 85%;
+  }
+
+  .cerrar {
+    right: 20px;
   }
 }
