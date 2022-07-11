@@ -277,7 +277,7 @@ button:hover i {
     background-color: black;
     height: auto;
     overflow-x: hidden !important;
-    max-width: 100% !important;
+    max-width: 768px !important;
     position: absolute;
     bottom: 0px;
     color: #fff;
@@ -285,7 +285,6 @@ button:hover i {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-width: 100% !important;
   }
   .iconos-redes {
     display: flex;
