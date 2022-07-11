@@ -207,7 +207,7 @@ button:hover i {
   text-align: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .cos {
     font-size: 1vh;
     overflow-x: hidden !important;
