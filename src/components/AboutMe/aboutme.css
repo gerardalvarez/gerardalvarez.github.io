@@ -197,16 +197,10 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 768px) {
-  body {
-    overflow-x: hidden !important;
-    max-width: 100% !important;
-    min-width: 100% !important;
-  }
   .container-about1 {
     overflow-x: hidden !important;
-    max-width: 100% !important;
+    max-width: 768px !important;
     height: auto;
-    min-width: 100% !important;
   }
   .container-about {
     justify-content: center;
@@ -215,13 +209,11 @@
     height: 70vh;
     flex-direction: column;
     overflow-x: hidden !important;
-    max-width: 100% !important;
-    min-width: 100% !important;
+    max-width: 768px !important;
   }
   .fondox-container {
     overflow-x: hidden !important;
-    max-width: 100% !important;
-    min-width: 100% !important;
+    max-width: 768px !important;
   }
 
   .barra1 {

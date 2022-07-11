@@ -208,23 +208,15 @@ button:hover i {
 }
 
 @media screen and (max-width: 767px) {
-  body {
-    overflow-x: hidden !important;
-    max-width: 100% !important;
-    min-width: 100% !important;
-  }
-
   .cos {
     font-size: 1vh;
     overflow-x: hidden !important;
-    max-width: 100% !important;
-    min-width: 100% !important;
+    max-width: 768px !important;
   }
   .foot {
     display: none;
     overflow-x: hidden !important;
-    max-width: 100% !important;
-    min-width: 100% !important;
+    max-width: 768px !important;
   }
 
   .inner2 {
@@ -254,8 +246,7 @@ button:hover i {
     background-repeat: no-repeat;
     background-color: rgb(0, 0, 0, 0.4);
     overflow-x: hidden !important;
-    max-width: 100% !important;
-    min-width: 100% !important;
+    max-width: 768px !important;
   }
   .wrapper2 {
     position: relative;
@@ -264,9 +255,8 @@ button:hover i {
     display: flex;
     align-items: center;
     overflow-x: hidden !important;
-    max-width: 100% !important;
+    max-width: 768px !important;
     padding-bottom: 200px;
-    min-width: 100% !important;
   }
 
   .fondo-con {
@@ -280,8 +270,7 @@ button:hover i {
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden !important;
-    max-width: 100% !important;
-    min-width: 100% !important;
+    max-width: 768px !important;
   }
   .footer-mov {
     width: 100%;

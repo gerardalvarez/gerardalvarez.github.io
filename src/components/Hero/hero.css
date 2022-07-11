@@ -271,20 +271,21 @@ img {
   width: 100%;
 }
 
-/* -- */
+/*  */
 
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden !important;
+    max-width: 768px !important;
   }
   .hero {
     height: 120vh;
-    max-width: 100% !important;
+    max-width: 768px !important;
     overflow-x: hidden !important;
   }
   .profile-container {
     height: 120vh;
-    max-width: 100% !important;
+    max-width: 768px !important;
     overflow-x: hidden !important;
   }
   .profile-info {

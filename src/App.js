@@ -12,7 +12,7 @@ import Err from "./err";
 import ScrollToTop from "react-scroll-to-top";
 import { BrowserRouter } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { PacmanLoader } from "react-spinners";
+import { SyncLoader } from "react-spinners";
 import { motion } from "framer-motion";
 import Card from "./components/Card/Card";
 
@@ -51,13 +51,12 @@ const App = () => {
     <BrowserRouter>
       {loading ? (
         <div className="loader">
-          <PacmanLoader
+          <SyncLoader
             size={30}
             color={"#FFD700"}
             loading={loading}
             className="pacman"
           />
-          <div className="container-load">Loading...</div>
         </div>
       ) : (
         <motion.div

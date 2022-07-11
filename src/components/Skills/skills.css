@@ -93,16 +93,11 @@
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden !important;
-    max-width: 100% !important;
-    min-width: 100% !important;
-  }
   .container {
-    max-width: 100% !important;
+    max-width: 768px !important;
     overflow-x: hidden !important;
     height: 180vh;
-    width: 100%;
+    min-width: 100%;
     position: relative;
   }
   .skill-carrousel {
