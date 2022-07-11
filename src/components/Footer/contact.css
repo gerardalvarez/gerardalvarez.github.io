@@ -211,17 +211,20 @@ button:hover i {
   body {
     overflow-x: hidden !important;
     max-width: 100% !important;
+    min-width: 100% !important;
   }
 
   .cos {
     font-size: 1vh;
     overflow-x: hidden !important;
     max-width: 100% !important;
+    min-width: 100% !important;
   }
   .foot {
     display: none;
     overflow-x: hidden !important;
     max-width: 100% !important;
+    min-width: 100% !important;
   }
 
   .inner2 {
@@ -252,6 +255,7 @@ button:hover i {
     background-color: rgb(0, 0, 0, 0.4);
     overflow-x: hidden !important;
     max-width: 100% !important;
+    min-width: 100% !important;
   }
   .wrapper2 {
     position: relative;
@@ -262,6 +266,7 @@ button:hover i {
     overflow-x: hidden !important;
     max-width: 100% !important;
     padding-bottom: 200px;
+    min-width: 100% !important;
   }
 
   .fondo-con {
@@ -276,6 +281,7 @@ button:hover i {
     background-size: cover;
     overflow-x: hidden !important;
     max-width: 100% !important;
+    min-width: 100% !important;
   }
   .footer-mov {
     width: 100%;
@@ -290,6 +296,7 @@ button:hover i {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    min-width: 100% !important;
   }
   .iconos-redes {
     display: flex;

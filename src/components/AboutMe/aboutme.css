@@ -146,11 +146,13 @@
   body {
     overflow-x: hidden !important;
     max-width: 100% !important;
+    min-width: 100% !important;
   }
   .container-about1 {
     overflow-x: hidden !important;
     max-width: 100% !important;
     height: auto;
+    min-width: 100% !important;
   }
   .container-about {
     justify-content: center;
@@ -160,10 +162,12 @@
     flex-direction: column;
     overflow-x: hidden !important;
     max-width: 100% !important;
+    min-width: 100% !important;
   }
   .fondox-container {
     overflow-x: hidden !important;
     max-width: 100% !important;
+    min-width: 100% !important;
   }
 
   .barra1 {
@@ -196,11 +200,13 @@
   body {
     overflow-x: hidden !important;
     max-width: 100% !important;
+    min-width: 100% !important;
   }
   .container-about1 {
     overflow-x: hidden !important;
     max-width: 100% !important;
     height: auto;
+    min-width: 100% !important;
   }
   .container-about {
     justify-content: center;
@@ -210,10 +216,12 @@
     flex-direction: column;
     overflow-x: hidden !important;
     max-width: 100% !important;
+    min-width: 100% !important;
   }
   .fondox-container {
     overflow-x: hidden !important;
     max-width: 100% !important;
+    min-width: 100% !important;
   }
 
   .barra1 {

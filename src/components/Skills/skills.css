@@ -96,6 +96,7 @@
   body {
     overflow-x: hidden !important;
     max-width: 100% !important;
+    min-width: 100% !important;
   }
   .container {
     max-width: 100% !important;
