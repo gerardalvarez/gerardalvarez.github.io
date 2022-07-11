@@ -22,6 +22,7 @@ const Projects = () => {
   };
 
   const [open, setOpen] = useState(0);
+  const [open1, setOpen1] = useState(0);
   return (
     <div
       className="container-out"
@@ -124,7 +125,7 @@ const Projects = () => {
         <div className="caja">
           <img className="img-proj" src={proj_fotos[1]} alt="" />
           <div className="info-proj">
-            <p className="tit">My website</p>
+            <p className="tit">Personal Portfolio</p>
             <div className="infomore" onClick={() => setOpen(1)}>
               more info
             </div>
@@ -134,7 +135,7 @@ const Projects = () => {
           <img className="img-proj" src={proj_fotos[2]} alt="" />
           <div className="info-proj">
             <p className="tit">Java SpreadSheet app</p>
-            <div className="infomore" onClick={() => setOpen(1)}>
+            <div className="infomore" onClick={() => setOpen1(1)}>
               more info
             </div>
           </div>
@@ -158,7 +159,12 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <Card estado={open} changeEstado={setOpen} titulo="hola" />
+      <Card estado={open} changeEstado={setOpen} titulo="Personal Portfolio" />
+      <Card
+        estado={open1}
+        changeEstado={setOpen1}
+        titulo="Java SpreadSheet app"
+      />
     </div>
   );
 };

@@ -11,14 +11,46 @@
 }
 
 .card {
-  width: 500px;
-  min-height: 400px;
+  width: 60%;
+  min-height: 700px;
   background: whitesmoke;
   position: relative;
   border-radius: 4vh;
   box-shadow: rgba(100, 100, 111, 0.2);
   padding: 20px;
 }
+
+.header-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e8e8e8;
+  font-size: larger;
+}
+
+.cerrar {
+  position: absolute;
+  display: flex;
+  top: 20px;
+  right: 40px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background: none;
+  border-radius: 2px;
+  transition: 0.3 ease all;
+  color: #1766dc;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 4px;
+}
+.cerrar:hover {
+  background: rgb(114, 112, 112, 0.3);
+}
+
 @media screen and (max-width: 767px) {
   body {
     overflow-x: hidden !important;
