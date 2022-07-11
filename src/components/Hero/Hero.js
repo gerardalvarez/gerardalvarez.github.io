@@ -52,8 +52,6 @@ function Hero() {
                     2000,
                     "Nice guy 😇",
                     2000,
-                    "Payaso 😎",
-                    2000,
                   ]}
                 />
               </motion.h1>
