@@ -2,7 +2,7 @@ import React from "react";
 import "./aboutMe.css";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
-import image1 from "./WhatsApp Image 2022-07-12 at 4.30.08 PM.jpeg";
+import image1 from "./profile-picture.jpeg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -55,7 +55,7 @@ const AboutMe = () => {
           duration="3000"
           initial={{ scale: 1 }}
           animate={{ scale: [1.5, 1] }}
-          transition={{ repeat: Infinity, duration: 1 }}
+          transition={{ repeat: 15, duration: 1 }}
           style={{ padding: "8px" }}
         >
           <div style={{ padding: "8px" }}>
