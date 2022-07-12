@@ -18,7 +18,7 @@ button {
 }
 
 .fondo-con {
-  background-image: url("../Hero/images/blackmar.jpeg");
+  background-color: black;
   z-index: -1;
   /* Full height */
   height: 100vh;
@@ -260,7 +260,6 @@ button:hover i {
   }
 
   .fondo-con {
-    background-image: url("../Hero/images/blackmar.jpeg");
     z-index: -1;
     /* Full height */
     height: 160vh;
@@ -274,7 +273,7 @@ button:hover i {
   }
   .footer-mov {
     width: 100%;
-    background-color: black;
+    background-color: #000000;
     height: auto;
     overflow-x: hidden !important;
     max-width: 768px !important;

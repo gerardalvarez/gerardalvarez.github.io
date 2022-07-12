@@ -246,5 +246,6 @@
     margin: 10%;
     width: 70%;
     height: 200px;
+    max-width: 330px;
   }
 }
