@@ -67,7 +67,11 @@ const AboutMe = () => {
             Full-Stack developer since I can handle the different layers.{" "}
             <p>
               I will love to hear from you, whether it's a project, job
-              opportunity or just chat. Feel free to to contact me HERE.
+              opportunity or just chat. Feel free to to contact me{" "}
+              <a style={{ color: "white" }} href="/#Contact">
+                HERE
+              </a>
+              .
             </p>
           </div>
         </motion.div>
