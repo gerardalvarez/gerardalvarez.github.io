@@ -2,7 +2,7 @@ import React from "react";
 import "./aboutMe.css";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
-import image1 from "./twoniggas.jpg";
+import image1 from "./WhatsApp Image 2022-07-12 at 6.06.29 AM.jpeg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 

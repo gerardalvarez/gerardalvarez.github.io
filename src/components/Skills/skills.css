@@ -99,6 +99,7 @@
     height: 190vh;
     min-width: 100%;
     position: relative;
+    background: black;
   }
   .skill-carrousel {
     margin-bottom: 40%;

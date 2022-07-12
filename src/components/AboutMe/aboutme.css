@@ -47,7 +47,6 @@
 }
 
 .container-about {
-  background-color: transparent;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -156,6 +155,7 @@
     flex-direction: column;
     overflow-x: hidden !important;
     max-width: 768px !important;
+    background-color: black;
   }
 
   .fondox-container {
