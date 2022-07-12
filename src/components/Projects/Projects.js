@@ -162,6 +162,7 @@ const Projects = () => {
         </div>
       </div>
       <Card
+        img={proj_fotos[1]}
         estado={open}
         changeEstado={setOpen}
         titulo="Personal Portfolio"
@@ -173,6 +174,7 @@ const Projects = () => {
         code={"https://github.com/gerardalvarez/gerardalvarez.github.io"}
       />
       <Card
+        img={proj_fotos[2]}
         estado={open1}
         changeEstado={setOpen1}
         titulo="Java SpreadSheet app"
@@ -204,6 +206,7 @@ const Projects = () => {
         code={"https://github.com/gerardalvarez/ProyectoASW-Hacker-News"}
       />
       <Card
+        img={proj_fotos[3]}
         estado={open3}
         changeEstado={setOpen3}
         titulo="Wordle Clone"

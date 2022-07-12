@@ -7,7 +7,7 @@ const Card = ({
   estado,
   changeEstado,
   titulo,
-  img1,
+  img,
   etiq,
   t,
   demo,
@@ -46,7 +46,7 @@ const Card = ({
             </div>
             <div className="inside-card">
               <div className="imgcard">
-                <img src={img1} alt="" />
+                <img className="imgcardins" src={img} alt="" />
               </div>
               <div className="infcard">
                 <div className="bts">
