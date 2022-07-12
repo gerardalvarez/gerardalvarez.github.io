@@ -101,7 +101,7 @@ export default function Navbar() {
           </motion.a>
           <motion.a
             id="a"
-            href="/#hooo"
+            href="/#Skills"
             initial="hidden"
             animate="visible"
             variants={item}

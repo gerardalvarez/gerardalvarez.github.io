@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./skills.css";
 import { motion } from "framer-motion";
-
+import Cv from "./CV_web.pdf";
 import "aos/dist/aos.css";
 import { lenguajesoalgo, otrascosas } from "./images";
 
@@ -19,7 +19,7 @@ const Skills = () => {
   }, []);
   return (
     <>
-      <div className="container" id="hooo">
+      <div className="container" id="Skills">
         <motion.hr
           className="barrita-kse-mueve1"
           initial={{ y: 0 }}
@@ -82,7 +82,7 @@ const Skills = () => {
         <div data-aos="fade-up">
           <div className="textito" style={{ paddingTop: "30px" }}>
             Check all my skills{" "}
-            <a style={{ color: "#ffd700" }} href="#hero" target="_blank">
+            <a style={{ color: "#ffd700" }} href={Cv} target="_blank">
               here
             </a>
           </div>

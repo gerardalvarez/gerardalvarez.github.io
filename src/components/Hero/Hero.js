@@ -1,6 +1,6 @@
 import "./hero.css";
 import Typical from "react-typical";
-import image1 from "./images/twoniggas.jpg";
+import Cv from "./CV_web.pdf";
 import { motion } from "framer-motion";
 
 function Hero() {
@@ -79,7 +79,7 @@ function Hero() {
           >
             <div className="categoryWrapper">
               <h1>Check my resume!</h1>
-              <a href={image1} target="_blank">
+              <a href={Cv} target="_blank">
                 <span>
                   <span>
                     <span data-attr-span="CV"> Take a look ;)</span>
