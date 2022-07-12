@@ -265,7 +265,7 @@ button:hover i {
     /* Full height */
     height: 160vh;
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    background-attachment: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

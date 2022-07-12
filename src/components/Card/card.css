@@ -14,6 +14,7 @@
 .card {
   width: 40%;
   min-height: 200px;
+  min-width: 500px;
   background: whitesmoke;
   position: relative;
   border-radius: 4vh;
@@ -131,6 +132,7 @@
     margin-left: 5%;
     margin-right: 5%;
     width: 85%;
+    min-width: auto;
   }
 
   .cerrar {

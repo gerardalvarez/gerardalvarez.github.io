@@ -10,7 +10,7 @@
   background-image: url("./images/blackmar.jpeg");
   z-index: -2;
   height: 150vh;
-  background-attachment: fixed;
+  background-attachment: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

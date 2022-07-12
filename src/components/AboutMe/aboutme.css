@@ -193,6 +193,7 @@
     margin: 10%;
     width: 70%;
     height: 300px;
+    max-width: 330px;
   }
 }
 
