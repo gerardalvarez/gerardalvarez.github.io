@@ -48,7 +48,7 @@ const Sidebar = () => {
           transition={{ duration: 0.8, delay: 3.5 }}
         >
           <SocialIcon
-            url="https://twitter.com/gerardalvarez00"
+            url="https://twitter.com/gritaman123"
             fgColor="#ffff"
             bgColor="transparent"
             style={{ height: 45, width: 45 }}
