@@ -18,7 +18,7 @@ button {
 }
 
 .fondo-con {
-  background-color: black;
+  background-color: transparent;
   z-index: -1;
   /* Full height */
   height: 100vh;
