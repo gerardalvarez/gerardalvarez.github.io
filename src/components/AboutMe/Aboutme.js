@@ -65,12 +65,8 @@ const AboutMe = () => {
             and diverse projects that challenge me to innovate and grow. With a
             solid foundation in software development and hands-on experience, I
             bring not only technical skills but also a proactive mindset and a
-            commitment to delivering high-quality solutions. I thrive in dynamic
-            environments where I can collaborate with talented teams, drive
-            progress, and contribute to meaningful projects. I’m enthusiastic
-            about leveraging my expertise and motivation to support the growth
-            of new ventures and bring value through technology. Let’s connect
-            and explore how I can help push your projects forward!{" "}
+            commitment to delivering high-quality solutions. Let’s connect and
+            explore how I can help push your projects forward!{" "}
             <p>
               I will love to hear from you, whether it's a project, job
               opportunity or just chat. Feel free to to contact me{" "}

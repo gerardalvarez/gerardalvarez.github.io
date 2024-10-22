@@ -102,7 +102,7 @@
   position: absolute;
   margin-right: 60%;
   margin-left: 20%;
-  height: 500px; /* Equal height and width for a perfect circle */
+  height: 480px; /* Equal height and width for a perfect circle */
   width: 360px;
   border-radius: 50%; /* Makes the shape circular */
   overflow: hidden; /* Ensures content stays within the circular shape */
