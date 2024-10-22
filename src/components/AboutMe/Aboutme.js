@@ -2,7 +2,7 @@ import React from "react";
 import "./aboutMe.css";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
-import image1 from "./profile-picture.jpeg";
+import image1 from "./pp22.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -59,12 +59,18 @@ const AboutMe = () => {
           style={{ padding: "8px" }}
         >
           <div style={{ padding: "8px" }}>
-            Hey! I am a 21-year-old student at the Universitat Politècnica de
-            Catalunya (FIB) based in Barcelona. I have studied different
-            programming languages and software architectures since I have
-            specialized in that. However, much of my knowledge is self-taught,
-            so I have no problem learning new technologies. I consider myself a
-            Full-Stack developer since I can handle the different layers.{" "}
+            Hello! I’m Gerard, a passionate Computer Engineer specialized in
+            Software Engineering, with a degree from FIB (UPC). I’m eager to
+            continue advancing my career in the tech industry by taking on new
+            and diverse projects that challenge me to innovate and grow. With a
+            solid foundation in software development and hands-on experience, I
+            bring not only technical skills but also a proactive mindset and a
+            commitment to delivering high-quality solutions. I thrive in dynamic
+            environments where I can collaborate with talented teams, drive
+            progress, and contribute to meaningful projects. I’m enthusiastic
+            about leveraging my expertise and motivation to support the growth
+            of new ventures and bring value through technology. Let’s connect
+            and explore how I can help push your projects forward!{" "}
             <p>
               I will love to hear from you, whether it's a project, job
               opportunity or just chat. Feel free to to contact me{" "}

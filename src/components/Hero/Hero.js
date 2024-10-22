@@ -46,9 +46,9 @@ function Hero() {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Software developer ",
+                    "Software engineer 💻",
                     2000,
-                    "Engineering student 💻",
+                    "Always learning",
                     2000,
                     "Nice guy 😇",
                     2000,
@@ -63,13 +63,14 @@ function Hero() {
             transition={{ duration: 1, delay: 2.8 }}
           >
             <p className="desc">
-              I’m a computer engineer specialized in software developmenet.
-              Currently, I am looking foward to complement my career with an
-              experience in the IT sector that will allow me to put into
-              practice everything I have learned and to continue to evolve both
-              professionally and personally. Therefore, I put at your disposal
-              my knowledge, my motivation, my best will to get involved in the
-              growth of new projects and to be able to work with a new team.
+              Nice to meet you! I’m a Computer Science Major specialized in
+              software development. Currently, I am looking foward to complement
+              my career with an experience in the IT sector that will allow me
+              to put into practice everything I have learned and to continue to
+              evolve both professionally and personally. Therefore, I put at
+              your disposal my knowledge, my motivation, my best will to get
+              involved in the growth of new projects and to be able to work with
+              a new team.
             </p>
           </motion.div>
           <motion.div

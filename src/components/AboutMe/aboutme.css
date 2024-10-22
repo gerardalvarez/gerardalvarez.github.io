@@ -3,7 +3,7 @@
 }
 @import url("https://fonts.googleapis.com/css?family=Exo:400,700");
 .fondox {
-  background-image: url("./nar.jpg");
+  background-image: url("./chips1.jpg");
   /* Full height */
   height: 45vh;
   /* Create the parallax scrolling effect */
@@ -79,7 +79,7 @@
   margin-left: 50%;
 }
 
-.resize {
+/* .resize {
   background-color: #ffd700;
   position: absolute;
   margin-right: 60%;
@@ -95,6 +95,33 @@
   -webkit-box-shadow: -23px 23px 0px 0px white;
   -moz-box-shadow: -23px 23px 0px 0px white;
   box-shadow: -23px 23px 0px 0px white;
+} */
+
+.resize {
+  background-color: #ffd700; /* Yellow background */
+  position: absolute;
+  margin-right: 60%;
+  margin-left: 20%;
+  height: 500px; /* Equal height and width for a perfect circle */
+  width: 360px;
+  border-radius: 50%; /* Makes the shape circular */
+  overflow: hidden; /* Ensures content stays within the circular shape */
+  box-shadow: -10px 10px 0px 0px #fce251;
+  transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resize img {
+  width: auto;
+  height: 100%;
+  max-width: none;
+  object-fit: cover; /* Ensures the image covers the container */
+}
+
+.resize:hover {
+  box-shadow: -10px 10px 0px 0px rgb(0, 0, 0);
 }
 
 .texto-about {
